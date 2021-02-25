@@ -186,7 +186,12 @@ The result of the event will be delivered by the 4th of April.<br>
   `;
 
   timeline.innerHTML =`
-
+<br>  March 9th: Abstract will be given 
+<br>  March 9th: Google form Registrations opens.
+<br>  March 13th: Google form Registrations closes.
+<br>  March 14th: Google form submission opens.
+<br>  March 25th: Google form submission closes.
+<br>  April 4nd: Result Declaration.
   `;
 
   sub_details.innerHTML=`
