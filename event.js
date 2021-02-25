@@ -419,7 +419,7 @@ function lazarus(){
   At the beginning of your video entry, all participants should display your name, institution, and name of your song/songs for the first 5 seconds.<br>
   Name your video entries in the format, Name_Institute (Eg: Arikta_IISERK).<br>
   For non-EDM participants: The participant’s face and visuals of them performing should be visible throughout the video.<br>
-  Or EDM participants: The visuals of the audio track should be presented in the video keeping the audio in sync.<br>
+  For EDM participants: The visuals of the audio track should be presented in the video keeping the audio in sync.<br>
   Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.<br>
   All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
   `;
