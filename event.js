@@ -342,7 +342,10 @@ No form of obscenity will be encouraged and it can lead to immediate disqualific
   `;
 
   timeline.innerHTML =`
-* date *, 11:59 PM
+<br>  Registration Begins: 6th March 
+<br>  Registration Ends : 9th March
+<br>  Submission Begins: 8th March
+<br>  Last day of Submission: 27th March, 11:59 PM
 
   `;
 
