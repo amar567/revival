@@ -342,7 +342,7 @@ No form of obscenity will be encouraged and it can lead to immediate disqualific
   `;
 
   timeline.innerHTML =`
-<br>  Registration Begins: 6th March 
+<br>  Registration Begins: 6th March
 <br>  Registration Ends : 9th March
 <br>  Submission Begins: 8th March
 <br>  Last day of Submission: 27th March, 11:59 PM
@@ -418,7 +418,7 @@ function lazarus(){
   Your entry should be your musical interpretation of the thematic image provided to you. Write a maximum of 4 lines in the google form how your music is related to the image.<br>
   At the beginning of your video entry, all participants should display your name, institution, and name of your song/songs for the first 5 seconds.<br>
   Name your video entries in the format, Name_Institute (Eg: Arikta_IISERK).<br>
-  Or non-EDM participants: The participant’s face and visuals of them performing should be visible throughout the video.<br>
+  For non-EDM participants: The participant’s face and visuals of them performing should be visible throughout the video.<br>
   Or EDM participants: The visuals of the audio track should be presented in the video keeping the audio in sync.<br>
   Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.<br>
   All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
