@@ -762,11 +762,11 @@ Due to Google’s policies, you will need to provide access when requested. (Jus
 
   `;
 
-  timeline.innerHTML =`We shall provide the necessary link for submission for the event by 13/03/2021.
-The registration opens on 14/03/2021, kindly fill the form by 27/03/2021. All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
-The link for submissions will be put on the Revival website & Lumière Instagram page (@lumiere.iiserm) .
-The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (instagram).
-
+  timeline.innerHTML =`
+<br><br>  We shall provide the necessary link for submission for the event by 13/03/2021.
+<br><br>The registration opens on 14/03/2021, kindly fill the form by 27/03/2021. All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
+<br><br>The link for submissions will be put on the Revival website & Lumière Instagram page (@lumiere.iiserm) .
+<br><br>The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (instagram).
 
   `;
 
