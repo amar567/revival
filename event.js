@@ -159,6 +159,7 @@ The submission with the best combined score for the short story and the cover ar
   `;
 
   judging_criteria.innerHTML=`
+  <br>
   The literary judges will be provided with the full story, the relevant description and the cover image as well, and the literary aspect will be judged on the basis of a number point scale with different metrics (viz. creativity, grammar, structure) out of 10.<br>
   The art judges will also be provided with the artwork, the description/relevance of the artwork, and the full story for reference. They will judge only the art aspect, and how well it relates to the description, on a number metric, out of 10.<br>
   The short description of the cover art will not be judged on the basis of grammar or any literary metric, only the relevance with the story will be taken into consideration.<br>
@@ -186,7 +187,7 @@ The result of the event will be delivered by the 4th of April.<br>
   `;
 
   timeline.innerHTML =`
-<br>  March 9th: Abstract will be given 
+<br>  March 9th: Abstract will be given
 <br>  March 9th: Google form Registrations opens.
 <br>  March 13th: Google form Registrations closes.
 <br>  March 14th: Google form submission opens.
@@ -304,7 +305,7 @@ function trashion(){
 
   event_name.innerHTML=`TRASHION`;
 
-  subname.innerHTML=`Online fashion even`;
+  subname.innerHTML=`Online fashion event`;
 
   about.innerHTML=`Are you a spendthrift who ponders a lot about the unaffordability of fashion? Are you someone who craves the joy of trying on the most novel clothing during the pandemic? Do you have a creative streak? If yes, then “trashion” is just for you! Be the trend you wish to see!
 Trashion presents a unique opportunity to creatively unleash your inner fashionista, that too on a budget! Design your own apparel with trash and become a fashion influencer yourself!
