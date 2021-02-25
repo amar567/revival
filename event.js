@@ -668,18 +668,19 @@ The video should be in MP4 format specifically. <br>
 Please use the nomenclature. Name_Institution code (e.g., Naman Mishra_10). Please find the institution code at the end of this rulebook.
 
 Institute codes: S. No. is the code. <br>
-Indian Institute of Science Education and Research, Kolkata <br>
-Indian Institute of Science Education and Research, Tirupati <br>
-Indian Institute of Science Education and Research, Bhopal <br>
-Indian Institute of Science Education and Research, Pune <br>
-Indian Institute of Science Education and Research, Berhampur <br>
-Indian Institute of Science Education and Research, Mohali <br>
-Indian Institute of Science Education and Research, Thiruvananthapuram <br>
-National Institute of Science Education and Research, Bhubaneshwar <br>
-Indian Institution of Science, Bangalore <br>
-Centre for Excellence in Basic Sciences, Mumbai
-
-
+<ol>
+<li>
+Indian Institute of Science Education and Research, Kolkata </li><li>
+Indian Institute of Science Education and Research, Tirupati </li><li>
+Indian Institute of Science Education and Research, Bhopal </li><li>
+Indian Institute of Science Education and Research, Pune </li><li>
+Indian Institute of Science Education and Research, Berhampur </li><li>
+Indian Institute of Science Education and Research, Mohali </li><li>
+Indian Institute of Science Education and Research, Thiruvananthapuram </li><li>
+National Institute of Science Education and Research, Bhubaneshwar </li><li>
+Indian Institution of Science, Bangalore </li><li>
+Centre for Excellence in Basic Sciences, Mumbai</li>
+</ol>
 
   `;
 
@@ -726,13 +727,12 @@ The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (i
   prizes.innerHTML=` There will be 3 prizes of ₹1500, ₹1000, ₹500.
   `;
 
-  judging_criteria.innerHTML=`All the entries received on 14/03/2021 will be posted on our Instagram page (@lumiere.iiserm) on 15/03/2021. This process will continue till last date (last date of submission 27/03/2021). <br>
+  judging_criteria.innerHTML=`
+  <!-- All the entries received on 14/03/2021 will be posted on our Instagram page (@lumiere.iiserm) on 15/03/2021. This process will continue till last date (last date of submission 27/03/2021). <br>
 Points will be calculated for each post according to this rule :- 1 point for 1 “like” & 2 points for 1 “comment”. <br>
 Only 1 comment will be counted from 1 person (please do not spam). <br>
  Points will be calculated 24 hours after the post is published. <br>
-Winners will be declared on the basis of highest points (calculated after 24 hours respectively).
-
-
+Winners will be declared on the basis of highest points (calculated after 24 hours respectively). -->
   `;
 
   elegibility.innerHTML=`
