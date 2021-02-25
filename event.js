@@ -347,8 +347,7 @@ No form of obscenity will be encouraged and it can lead to immediate disqualific
 
   `;
 
-  timeline.innerHTML =`
-<br><br>  Registration Begins: 6th March
+  timeline.innerHTML =`  Registration Begins: 6th March
 <br><br>  Registration Ends : 9th March
 <br><br>  Submission Begins: 8th March
 <br><br>  Last day of Submission: 27th March, 11:59 PM
@@ -517,8 +516,8 @@ Team size Maximum limit 4
 
   sub_details.innerHTML=``;
 
-  contact.innerHTML=`Sarthak - +91 7077965840  <br><br>   @sathak.g_art <br><br>
-Harshwardhan <br><br> +91 6263163831 <br><br>
+  contact.innerHTML=`Sarthak - +91 7077965840  @sathak.g_art <br><br>
+Harshwardhan - +91 6263163831 <br><br>
 
 @falc_iiserb <br><br>
 
