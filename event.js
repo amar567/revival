@@ -380,7 +380,7 @@ function lazarus(){
 
   event_name.innerHTML=`LAZARUS`;
 
-  subname.innerHTML=`Online Musico-Visual Compitition`;
+  subname.innerHTML=`Online Musico-Visual Competition`;
 
   about.innerHTML=`
   The Music Club of IISER Kolkata<a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">(@musicclubofiiserk)</a> presents LAZARUS, an online music competition, unlike any other, in the history of time.
@@ -423,8 +423,8 @@ function lazarus(){
   Your entry should be your musical interpretation of the thematic image provided to you. Write a maximum of 4 lines in the google form how your music is related to the image.<br><br>
   At the beginning of your video entry, all participants should display your name, institution, and name of your song/songs for the first 5 seconds.<br><br>
   Name your video entries in the format, Name_Institute (Eg: Arikta_IISERK).<br><br>
-  For non-EDM participants: The participant’s face and visuals of them performing should be visible throughout the video.<br><br>
-  For EDM participants: The visuals of the audio track should be presented in the video keeping the audio in sync.<br><br>
+  The participant’s face and visuals of them performing should be visible throughout the video.<br><br>
+  Please note that No EDM Entries are Allowed.<br><br>
   Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.<br><br>
   All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
   `;
