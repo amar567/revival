@@ -403,8 +403,26 @@ function lazarus(){
   `;
 
   judging_criteria.innerHTML=`
-  Entries will be also judged based on the vocals, presentation, pitching quality, pronunciation and theme correspondence.<br><br>
-  ...........More detailed criteria may be updated later.
+         I) Overall Theme Correspondence and Overall Presentation
+
+<br><br> II) Vocal will be judged based on:
+        <ul>
+          1. Pitching Quality
+        <br><br> 2. Pronunciation
+        <br><br> 3. Overall presentation.
+        </ul>
+
+<br><br> III) Instrumental will be judged by:
+      <ul>
+      1. Backing track (only if played by the participant)
+      <br><br> 2. Rhythm and tempo
+      <br><br> 3. Groove
+      <br><br> 4. Melody line.
+      <br><br> 5. Harmony line.
+      <br><br> 6. Skill and technique.
+      <br><br> 7. Overall presentation
+      </ul>
+
   `;
 
   elegibility.innerHTML=`
