@@ -467,7 +467,7 @@ function lazarus(){
     <li>Final round submission opens.</li>
   </ul><br><br>
   3rd April​ - Submission google form of final round closes.<br><br>
-  10th April -​Announcement of winners in the vocal and instrumental category.<br><br>
+  14th April -​Announcement of winners in the vocal and instrumental category.<br><br>
   `;
 
   sub_details.innerHTML=`Video entries must be submitted using the google form which will be circulated by mail/on the website. This will be clarified on/after Registration.`;
