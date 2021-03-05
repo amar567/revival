@@ -380,7 +380,17 @@ function lazarus(){
 
   event_name.innerHTML=`LAZARUS`;
 
-  subname.innerHTML=`Online Musico-Visual Competition`;
+  subname.innerHTML=``;
+
+  document.getElementById('extrabtn1').innerHTML=`
+  <div class="st" style="text-align:center;">
+    <a href="lazarus1.html" id="regbtn2"><button class="regbtn" type="button">Round-1 details</button></a> <br><br>
+  </div>`;
+
+  document.getElementById('extrabtn2').innerHTML=`
+  <div class="lt" style="text-align:center;">
+    <a href="lazarus1.html" id="regbtn2"><button class="regbtn" type="button">Round-1 details</button></a> <br><br>
+  </div>`;
 
   about.innerHTML=`
   The Music Club of IISER Kolkata<a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">(@musicclubofiiserk)</a> presents LAZARUS, an online music competition, unlike any other, in the history of time.
