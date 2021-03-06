@@ -186,10 +186,6 @@ img.center{
     z-index: 15;
   }
 
-  .padding-st{
-    padding-top:8vh;
-  }
-
   /* width */
   .lazbox::-webkit-scrollbar {
     width: 0;
@@ -291,6 +287,10 @@ border-radius: 10px;
     .pheonix{
       width: 45vh;
       position:relative;
+    }
+
+    .padding-st{
+      padding-top:8vh;
     }
 
     .button{
