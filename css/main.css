@@ -14,9 +14,41 @@ body{
   overflow-y:scroll;
 }
 
+.lazbox{
+  scrollbar-widthyyy: 10px;
+  scrollbar-color: red;
+}
+
 ::-webkit-scrollbar {
     width: 0px;
     height:0px;
+}
+
+.lazbox{
+
+}
+
+/* width */
+.lazbox::-webkit-scrollbar {
+  width: 5px;
+  height:0;
+}
+
+/* Track */
+.lazbox::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+/* Handle */
+.lazbox::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+  height: 20px;
+}
+
+/* Handle on hover */
+.lazbox::-webkit-scrollbar-thumb:hover {
+  background: black;
 }
 
 .container{
@@ -158,6 +190,11 @@ img.center{
     padding-top:8vh;
   }
 
+  /* width */
+  .lazbox::-webkit-scrollbar {
+    width: 0;
+    height:0;
+  }
 
   .grid-container3 {
     display: block;
@@ -175,7 +212,7 @@ img.center{
     display: block;
   }
   .button_cont{
-    height:82vh;
+    height:80vh;
     width:100vw;
     position: relative;
     top: 10vh;
@@ -445,15 +482,6 @@ top: 0px;
   }
 
 }
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-}
-
-
 
 /*
  * Made by Erik Terwan

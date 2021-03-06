@@ -380,7 +380,7 @@ function lazarus(){
 
   event_name.innerHTML=`LAZARUS`;
 
-  subname.innerHTML=``;
+  subname.innerHTML=`<font class="gt">Online Musico-visual Competition</font>`;
 
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
