@@ -32,6 +32,8 @@ body{
 .lazbox::-webkit-scrollbar {
   width: 5px;
   height:0;
+  background: #EBEDF2;
+  border-radius: 5px;
 }
 
 /* Track */
@@ -41,7 +43,7 @@ body{
 
 /* Handle */
 .lazbox::-webkit-scrollbar-thumb {
-  background: grey;
+  background: #636466;
   border-radius: 10px;
   height: 20px;
 }
