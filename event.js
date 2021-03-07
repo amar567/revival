@@ -221,9 +221,9 @@ function manthan(){
 
   img.src = `./img/events/manthan.jpg`;
 
-  $('#regbtn2').attr('href','https://forms.gle/v6zPk4FCe3kNtmyF8');
+  $('#regbtn2').attr('href','https://forms.gle/wpULajsYMRHto9ra6');
 
-  $('#regbtn').attr('href','https://forms.gle/v6zPk4FCe3kNtmyF8');
+  $('#regbtn').attr('href','https://forms.gle/wpULajsYMRHto9ra6');
 
   event_name.innerHTML=`MANTHAN`;
 
@@ -327,7 +327,7 @@ Theme Selection, Use of materials, originality, presentation, Grooming, Confiden
 
   elegibility.innerHTML=`
 This is a Team event. Only students of IISERs, NISER, CEBS and IISc can form teams (within respective institutes) and are allowed to participate. <br><br>
-Team 4~10
+Team 2-10
 
  `;
 
@@ -348,7 +348,7 @@ No form of obscenity will be encouraged and it can lead to immediate disqualific
   `;
 
   timeline.innerHTML =`  Registration Begins: 6th March
-<br><br>  Registration Ends : 9th March
+<br><br>  Registration Ends : 10th March
 <br><br>  Submission Begins: 8th March
 <br><br>  Last day of Submission: 27th March, 11:59 PM
 
