@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>LAZARUS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @font-face{
+        font-family: custom;
+        src:url("../assets/custom.otf");
+    }
+
+    body {
+      overflow-y: hidden; /* Hide vertical scrollbar */
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    body{
+      background-image: url("./img/bg.svg");
+      background-position: center;
+      background-repeat: repeat;
+      background-size:cover;
+      background-color: #8b8c8c;
+    }
+  </style>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+  <body onresize="padding()" onload="padding()" style="width:100vw">
+
+    <div class=""> <!--template for every pages-->
+          <div class="logo" class="">
+            <div class="">
+              <div class="" style="padding-top:20px;">
+                <img class="w1000" src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;" alt="">
+                <img src="./img/logo.svg" style="width:15vh;position:absolute;left:30px;top:2.5vh;" alt="">
+                <div class="w1000" style="position:relative;text-align:center;margin-left: auto;margin-right: auto;">
+                  <p style="display:inline-flex;">
+                    <a href="index.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> HOME </button></a>
+                    <a href="events.html"><button class="none pincktxt" type="button" onclick="" style="font-size: 2.3vh;"> EVENTS</button></a>
+                    <a href="about.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> ABOUT US </button></a>
+                    <!-- <a href="team.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> OUR TEAM</button></a> -->
+                    <a target="_blank" href="./assets/Schedule.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> SCHEDULE</button></a>
+                    <a target="_blank" href="./assets/FAQ's.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> FAQ</button></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wm1000" style="position:relative;text-align:center;" onclick="menu()" >
+              <nav role="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul><ul>
+                </div>
+              </nav>
+          </div>
+          <div class="none" id="menu1" >
+            <div class="full-height" style="font-family: -webkit-pictograph;">
+              <div>
+                <div class="" style="height:10vh"></div>
+                <div>
+                  <div class="" style="color: #00FFFF;font-size: 10vh;">
+                    MENU <div class="" style="height:0px;"></div>
+                  </div>
+                  <div class="" style="font-size:4vh">
+                    <br>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="index.html">HOME</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="events.html">EVENTS</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="about.html">ABOUT US</a>
+                  </div>
+                  <!-- <div class="" style="font-size: 6vh;color:white;">
+                    <a href="team.html">OUR TEAM</a>
+                  </div> -->
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a target="_blank" href="./assets/Schedule.pdf">SCHEDULE</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a target="_blank" href="./assets/FAQ's.pdf">FAQ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
+    </div>
+
+    <div class="padding-st" style="font-family: -webkit-pictograph;"> <!--page content goes here-->
+      <div class="scrollbox lazbox" style="">
+        <div class="">
+          <h1 style="text-align:center;" id="event_name">LAZARUS</h1>
+          <!-- <h3 style="text-align:center;position:relative;top:-20px;" id="subname">Online Musico-Visual Compitition</h3> -->
+          <h3 style="text-align:center;" id="subname">Round - 1 Thematic images</h3>
+          <h5 style="text-align:center;">Deadline: 8th March 11:59 PM</h5>
+          <div class="" style="">
+            <div class="" style="text-align:center;">
+              <a target="_blank" href="https://forms.gle/QdfreDJpSHFJnWCCA"><button class="regbtn" type="button" style="padding: 0 20px;width:auto;">Submission Portal</button></a> <br><br>
+            </div>
+          </div>
+        </div>
+        <div class="grid-container3" style="margin:auto">
+          <div>
+            <img class="center" src="img/lazarus/img1.jpeg" style="height:300px;" alt="">
+            <h3 style="text-align:center;">Image-1</h3>
+
+          </div>
+          <div>
+            <img class="center" src="img/lazarus/img2.jpeg" style="height:300px;" alt="">
+            <h3 style="text-align:center;">Image-2</h3>
+
+          </div>
+          <div>
+            <img class="center" src="img/lazarus/img3.jpeg" style="height:300px;" alt="">
+            <h3 style="text-align:center;">Image-3</h3>
+
+          </div>
+        </div>
+        <div class="" style="text-align:left;">
+          <ul>
+            <li>Only those people can submit who have already registered through Google form otherwise their entries will be cancelled.</li><li> Participants are expected to make a video of their musical performance which is an interpretation of any one of this image.</li><li> Choose any one of these images and communicate the theme of the painting through your music.</li><li> In your submission google form, Do not forget to mention the correct image number while submitting your entry.</li><li> Also write a few lines explaining how your music is intertwined with the theme of the image or interprets the image in the google form.
+          </li>
+          </ul>
+          <h3 style="text-align:center;">Best of luck!</h3>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function padding(){
+        a = document.getElementById('pgbody').offsetWidth;
+        b = window.innerWidth;
+        c = (b-a)/2;
+        document.getElementById('pgbody').style.left=c+'px';
+
+        d = document.getElementById('pgbody').offsetHeight;
+        e = window.innerHeight;
+        f = (e-d)/2;
+        document.getElementById('pgbody').style.top=f-50+'px';
+      };
+
+      function menu(){
+        document.getElementById('menu1').classList.toggle("none");
+      }
+    </script>
+  </body>
+</html>
