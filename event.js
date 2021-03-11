@@ -32,101 +32,6 @@ function eventName(){
   timeline.innerHTML=``;
 }
 
-// function picomix(){
-//   img2.src = `./img/events/picomix.jpg`;
-//
-//   img.src = `./img/events/picomix.jpg`;
-//
-//   $('#regbtn2').attr('href','https://forms.gle/przUVdSMPNk2rNi27');
-//
-//   $('#regbtn').attr('href','https://forms.gle/przUVdSMPNk2rNi27');
-//
-//   event_name.innerHTML=`PICOMIX`;
-//
-//   subname.innerHTML=`Online photography and drawing comics event`;
-//
-//   about.innerHTML=`
-//   Are your creative senses tingling?
-//   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
-//   `;
-//
-//   event_details.innerHTML =`
-//   The event consists of two parts:<br><br>
-// A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software<br><br>
-// B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software<br><br>
-// 1. All the entries will be uploaded on social media by the Revival committee.<br><br>
-// 2. Entries must be submitted using the google form which will be circulated<br><br>
-// 3. This is a solo online event.<br><br>
-//   `;
-//
-//   prizes.innerHTML=`
-//     Prizes in each category &minus; Winner awarded with ₹1000, runner up <br><br>
-//     awarded with ₹750 for<br><br>
-//     first event and ₹750 and ₹500 respectively for the second event .<br><br>
-//   `;
-//
-//   judging_criteria.innerHTML=`
-//     Will be announced shortly
-//   `;
-//
-//   elegibility.innerHTML=`
-//   Students from the IISERs, NISER, IISC, CEBS only are allowed to participate in the
-// event. Alumnus not allowed to participate.
-//   `;
-//
-//   guidelines.innerHTML=`
-//   Participant’s Guidelines
-// <br><br>1. Only digital submissions are accepted, i.e. the participant cannot take a printout of their
-// <br><br>picture and draw over it.
-// <br><br>2. Comic has to be 4 panels in length.
-// <br><br>3. One entry per event per person is allowed, i.e. a person can have two entries in total.
-// <br><br>4. Both events will be judged separately.
-// <br><br>5. You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
-// <br><br>have to be hand&minus;drawn. You can however edit text onto the image.
-// <br><br>6. The picture has to be clicked by the participant. You will have to provide EXIF
-// <br><br>information of the images used for verification. (details mentioned below)
-// <br><br>7. There is no particular theme for the comic/image, just go with the flow!
-// <br><br>8. There will be 3 judges for the event, and judging will be based on how unique the idea is,
-// <br><br>and how much it makes us feel/think.
-// <br><br>9. Name your entry in the format, Name_Institute
-// <br><br>Apps that can be used for the event :
-// <br><br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
-// <br><br>participants who might not have access to most tools
-// <br><br>● PicsArt
-// <br><br>● Autodesk Sketchbook
-// <br><br>● Instagram
-// <br><br>● Google Storyboard (for comics)
-// <br><br>● Adobe Inkscape (laptop only)
-// <br><br>EXIF information :
-// <br><br>1. Share EXIF info for each of the images used.
-// <br><br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
-// <br><br>b. For Google photos you just need to swipe up to find EXIF info.
-// <br><br>c If you're using a PC just right click on the photo and go to properties to find EXIF info.
-// <br><br>3. Share the original image you used to create the entry.
-//   `;
-//
-//   timeline.innerHTML =`
-//   <br><br>  1. 6th March &minus; Registration google form opens for entries.
-//   <br><br>  2. 27th March &minus; Registration google form closes.
-//   <br><br>  3. 3rd April &minus; Announcement of results
-//   `;
-//
-//   sub_details.innerHTML=`will be updated shortly`;
-//
-//   contact.innerHTML=`
-//   Contact us &minus;
-// <br><br> Sagnik C &minus; +91 9748216919
-// <br><br> Gowri N  &minus; +91 8086030097
-// <br><br> @pixels_iiserpune
-// <br><br> @artclub_iiserp
-//   `;
-//
-//   //show the popup
-//
-//  document.getElementById('container').style.display='block';
-//
-// };
-
 function picomix(){
   img2.src = `./img/events/picomix.jpg`;
 
@@ -145,7 +50,14 @@ function picomix(){
   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
 
-
+  event_details.innerHTML =`
+  The event consists of two parts:<br><br>
+A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software<br><br>
+B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software<br><br>
+1. All the entries will be uploaded on social media by the Revival committee.<br><br>
+2. Entries must be submitted using the google form which will be circulated<br><br>
+3. This is a solo online event.<br><br>
+  `;
 
   prizes.innerHTML=`
     Prizes in each category &minus; Winner awarded with ₹1000, runner up <br><br>
@@ -154,8 +66,7 @@ function picomix(){
   `;
 
   judging_criteria.innerHTML=`
-    There will be 3 judges for the event, and judging will be based on how unique the idea is,
-and how much it makes us feel/think.
+    Will be announced shortly
   `;
 
   elegibility.innerHTML=`
@@ -163,49 +74,35 @@ and how much it makes us feel/think.
 event. Alumnus not allowed to participate.
   `;
 
-event_details.innerHTML =`
-  The event consists of two parts:
-<ul>
-<li>A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
-<li>B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
-</ul>
-<ol>
-<li>All the entries will be uploaded on social media by the Revival committee.</li>
-<li>Entries must be submitted using the google form which will be circulated</li>
-<li>This is a solo online event.</li>
-</ol>
-  `;
-
   guidelines.innerHTML=`
-<ol>
-<li>Only digital submissions are accepted, i.e. the participant cannot take a printout of their
-picture and draw over it.</li><li>
-Comic has to be 4 panels in length.</li><li>
-One entry per event per person is allowed, i.e. a person can have two entries in total.
-Both events will be judged separately.</li><li>
-You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
-have to be hand&minus;drawn. You can however edit text onto the image.</li><li>
-The picture has to be clicked by the participant. You will have to provide EXIF
-information of the images used for verification. (details mentioned below)</li><li>
-There is no particular theme for the comic/image, just go with the flow! </li><li>
-Name your entry in the format, Name_Institute </li>
-</ol>
+  Participant’s Guidelines
+<br><br>1. Only digital submissions are accepted, i.e. the participant cannot take a printout of their
+<br><br>picture and draw over it.
+<br><br>2. Comic has to be 4 panels in length.
+<br><br>3. One entry per event per person is allowed, i.e. a person can have two entries in total.
+<br><br>4. Both events will be judged separately.
+<br><br>5. You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
+<br><br>have to be hand&minus;drawn. You can however edit text onto the image.
+<br><br>6. The picture has to be clicked by the participant. You will have to provide EXIF
+<br><br>information of the images used for verification. (details mentioned below)
+<br><br>7. There is no particular theme for the comic/image, just go with the flow!
+<br><br>8. There will be 3 judges for the event, and judging will be based on how unique the idea is,
+<br><br>and how much it makes us feel/think.
+<br><br>9. Name your entry in the format, Name_Institute
 <br><br>Apps that can be used for the event :
-<br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
-participants who might not have access to most tools
-<ul>
-<li>PicsArt</li><li>
-Autodesk Sketchbook</li><li>
-Instagram</li><li>
- Google Storyboard (for comics)</li><li>
- Adobe Inkscape (laptop only)</li>
-</ul>
+<br><br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
+<br><br>participants who might not have access to most tools
+<br><br>● PicsArt
+<br><br>● Autodesk Sketchbook
+<br><br>● Instagram
+<br><br>● Google Storyboard (for comics)
+<br><br>● Adobe Inkscape (laptop only)
 <br><br>EXIF information :
 <br><br>1. Share EXIF info for each of the images used.
-<br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
-<br>b. For Google photos you just need to swipe up to find EXIF info.
-<br>c. If you're using a PC just right click on the photo and go to properties to find EXIF info.
-<br>3. Share the original image you used to create the entry.
+<br><br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
+<br><br>b. For Google photos you just need to swipe up to find EXIF info.
+<br><br>c If you're using a PC just right click on the photo and go to properties to find EXIF info.
+<br><br>3. Share the original image you used to create the entry.
   `;
 
   timeline.innerHTML =`
@@ -214,21 +111,14 @@ Instagram</li><li>
   <br><br>  3. 3rd April &minus; Announcement of results
   `;
 
-  sub_details.innerHTML=`
-Entries must be submitted using the google form which will be circulated.
-
-<br><br>Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
-<br>By participating, you give consent to the Revival Core Committee for such use.
-<br>In case of any issue, do contact your respective institute’s Revival Secretary.
-https://forms.gle/przUVdSMPNk2rNi27`;
+  sub_details.innerHTML=`will be updated shortly`;
 
   contact.innerHTML=`
-
- Sagnik C &minus; +91 9748216919
-<br> Gowri N  &minus; +91 8086030097  <a href="https://www.instagram.com/_._gowriii/" style="color:blue;">@_._gowriii</a>
-<br>  <a href="https://www.instagram.com/pixels_iiserpune/?hl=en" style="color:blue;">@pixels_iiserpune</a>
-<br>  <a href="https://www.instagram.com/artclub_iiserp/?hl=en" style="color:blue;">@artclub_iiserp</a>
-
+  Contact us &minus;
+<br><br> Sagnik C &minus; +91 9748216919
+<br><br> Gowri N  &minus; +91 8086030097
+<br><br> @pixels_iiserpune
+<br><br> @artclub_iiserp
   `;
 
   //show the popup
@@ -930,9 +820,8 @@ function mela_quiz(){
   subname.innerHTML=`Online quiz based on music, entertainment, literature and arts.`;
 
   about.innerHTML=`
-  Please change this to: Do you ever feel that your brain save way more pop-culture information as opposed to things in your actual curriculum? Well then, hold on to your knowledge about the latest movies, the best of the books, and the chart topping songs and the news buzz for the brand new MELA QUIZ!, conducted by IISER TVM.
-  <br><br>
-  Become the trivia queens (and kings, of course) by sailing through the prelims and the finals.
+Do you know a lot about the latest trendy songs, stay updated about the newest Bollywood movies and the best books? Well, IISER Thiruvananthapuram is here with the perfect opportunity to put this trivia knowledge to good use - the MELA Quiz! The quiz will be focused on music, entertainment, literature and arts. An amazing platform to showcase your fine arts knowledge!
+Getting down to the nitty-gritty, the competition will take place  in two sessions (a prelim and the final),  through Discord. Teams of two can participate. Stay tuned for further updates!
 
     `;
 
@@ -941,11 +830,10 @@ function mela_quiz(){
   `;
 
   prizes.innerHTML=`
-  IISER TVM Quiz Club will update soon.
   `;
 
   judging_criteria.innerHTML=`
-N.A.
+
   `;
 
   elegibility.innerHTML=`
@@ -953,28 +841,14 @@ Team size: 2
   `;
 
   guidelines.innerHTML=`
-  - A team shall consist of a maximum of 2 members. Lone wolves are welcome. (Participants need not to be from the same institute)
-
-<br><br>  - There is no restriction on the number of teams from an institute
-
-<br><br>  - Participants are encouraged to pre-register. However, spot registrations may be permitted as per the situation.
-
-<br><br>  - The quiz will happen in two rounds, prelims and finals.
-
-<br><br>  - All decisions made by the Quizmaster, including those regarding tie-breaks, will be final.
-
-<br><br>  - Further instructions will be given on the day of the quiz.
-
-<br><br>  - Any form of malpractice is discouraged. If any of the teams are found carrying out such behavior, they will be disqualified.
 
   `;
 
   timeline.innerHTML =`
-  Registration: 26th March - 02nd April
-<br><br> Quiz happens of 03rd
+
   `;
 
-  sub_details.innerHTML=`N.A.`;
+  sub_details.innerHTML=``;
 
   contact.innerHTML=`
 Contact information: <br><br>
