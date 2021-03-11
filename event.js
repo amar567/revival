@@ -203,10 +203,12 @@ only those teams who had registered would be considered for judging.<br><br>
   `;
 
   timeline.innerHTML =`
-      March 9th: Google form Registrations opens.
-<br>  March 13th: Google form Registrations closes.
-<br>  March 14th: Google form submission opens.
-<br>  March 27th: Google form submission closes.
+<ul style="list-style-type:disc;">
+   li>   March 9th: Google form Registrations opens.</li><li>
+March 13th: Google form Registrations closes.</li><li>
+ March 14th: Google form submission opens.</li><li>
+ March 27th: Google form submission closes.</li>
+0<li>
 <br>  April 4th: Result Declaration.
   `;
 
