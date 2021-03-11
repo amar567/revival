@@ -32,6 +32,101 @@ function eventName(){
   timeline.innerHTML=``;
 }
 
+// function picomix(){
+//   img2.src = `./img/events/picomix.jpg`;
+//
+//   img.src = `./img/events/picomix.jpg`;
+//
+//   $('#regbtn2').attr('href','https://forms.gle/przUVdSMPNk2rNi27');
+//
+//   $('#regbtn').attr('href','https://forms.gle/przUVdSMPNk2rNi27');
+//
+//   event_name.innerHTML=`PICOMIX`;
+//
+//   subname.innerHTML=`Online photography and drawing comics event`;
+//
+//   about.innerHTML=`
+//   Are your creative senses tingling?
+//   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
+//   `;
+//
+//   event_details.innerHTML =`
+//   The event consists of two parts:<br><br>
+// A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software<br><br>
+// B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software<br><br>
+// 1. All the entries will be uploaded on social media by the Revival committee.<br><br>
+// 2. Entries must be submitted using the google form which will be circulated<br><br>
+// 3. This is a solo online event.<br><br>
+//   `;
+//
+//   prizes.innerHTML=`
+//     Prizes in each category &minus; Winner awarded with ₹1000, runner up <br><br>
+//     awarded with ₹750 for<br><br>
+//     first event and ₹750 and ₹500 respectively for the second event .<br><br>
+//   `;
+//
+//   judging_criteria.innerHTML=`
+//     Will be announced shortly
+//   `;
+//
+//   elegibility.innerHTML=`
+//   Students from the IISERs, NISER, IISC, CEBS only are allowed to participate in the
+// event. Alumnus not allowed to participate.
+//   `;
+//
+//   guidelines.innerHTML=`
+//   Participant’s Guidelines
+// <br><br>1. Only digital submissions are accepted, i.e. the participant cannot take a printout of their
+// <br><br>picture and draw over it.
+// <br><br>2. Comic has to be 4 panels in length.
+// <br><br>3. One entry per event per person is allowed, i.e. a person can have two entries in total.
+// <br><br>4. Both events will be judged separately.
+// <br><br>5. You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
+// <br><br>have to be hand&minus;drawn. You can however edit text onto the image.
+// <br><br>6. The picture has to be clicked by the participant. You will have to provide EXIF
+// <br><br>information of the images used for verification. (details mentioned below)
+// <br><br>7. There is no particular theme for the comic/image, just go with the flow!
+// <br><br>8. There will be 3 judges for the event, and judging will be based on how unique the idea is,
+// <br><br>and how much it makes us feel/think.
+// <br><br>9. Name your entry in the format, Name_Institute
+// <br><br>Apps that can be used for the event :
+// <br><br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
+// <br><br>participants who might not have access to most tools
+// <br><br>● PicsArt
+// <br><br>● Autodesk Sketchbook
+// <br><br>● Instagram
+// <br><br>● Google Storyboard (for comics)
+// <br><br>● Adobe Inkscape (laptop only)
+// <br><br>EXIF information :
+// <br><br>1. Share EXIF info for each of the images used.
+// <br><br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
+// <br><br>b. For Google photos you just need to swipe up to find EXIF info.
+// <br><br>c If you're using a PC just right click on the photo and go to properties to find EXIF info.
+// <br><br>3. Share the original image you used to create the entry.
+//   `;
+//
+//   timeline.innerHTML =`
+//   <br><br>  1. 6th March &minus; Registration google form opens for entries.
+//   <br><br>  2. 27th March &minus; Registration google form closes.
+//   <br><br>  3. 3rd April &minus; Announcement of results
+//   `;
+//
+//   sub_details.innerHTML=`will be updated shortly`;
+//
+//   contact.innerHTML=`
+//   Contact us &minus;
+// <br><br> Sagnik C &minus; +91 9748216919
+// <br><br> Gowri N  &minus; +91 8086030097
+// <br><br> @pixels_iiserpune
+// <br><br> @artclub_iiserp
+//   `;
+//
+//   //show the popup
+//
+//  document.getElementById('container').style.display='block';
+//
+// };
+
 function picomix(){
   img2.src = `./img/events/picomix.jpg`;
 
@@ -50,14 +145,7 @@ function picomix(){
   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
 
-  event_details.innerHTML =`
-  The event consists of two parts:<br><br>
-A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software<br><br>
-B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software<br><br>
-1. All the entries will be uploaded on social media by the Revival committee.<br><br>
-2. Entries must be submitted using the google form which will be circulated<br><br>
-3. This is a solo online event.<br><br>
-  `;
+
 
   prizes.innerHTML=`
     Prizes in each category &minus; Winner awarded with ₹1000, runner up <br><br>
@@ -66,7 +154,8 @@ B: Transform 1 image that you’ve clicked by adding drawings/text on top with a
   `;
 
   judging_criteria.innerHTML=`
-    Will be announced shortly
+    There will be 3 judges for the event, and judging will be based on how unique the idea is,
+and how much it makes us feel/think.
   `;
 
   elegibility.innerHTML=`
@@ -74,35 +163,49 @@ B: Transform 1 image that you’ve clicked by adding drawings/text on top with a
 event. Alumnus not allowed to participate.
   `;
 
+event_details.innerHTML =`
+  The event consists of two parts:
+<ul>
+<li>A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
+<li>B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
+</ul>
+<ol>
+<li>All the entries will be uploaded on social media by the Revival committee.</li>
+<li>Entries must be submitted using the google form which will be circulated</li>
+<li>This is a solo online event.</li>
+</ol>
+  `;
+
   guidelines.innerHTML=`
-  Participant’s Guidelines
-<br><br>1. Only digital submissions are accepted, i.e. the participant cannot take a printout of their
-<br><br>picture and draw over it.
-<br><br>2. Comic has to be 4 panels in length.
-<br><br>3. One entry per event per person is allowed, i.e. a person can have two entries in total.
-<br><br>4. Both events will be judged separately.
-<br><br>5. You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
-<br><br>have to be hand&minus;drawn. You can however edit text onto the image.
-<br><br>6. The picture has to be clicked by the participant. You will have to provide EXIF
-<br><br>information of the images used for verification. (details mentioned below)
-<br><br>7. There is no particular theme for the comic/image, just go with the flow!
-<br><br>8. There will be 3 judges for the event, and judging will be based on how unique the idea is,
-<br><br>and how much it makes us feel/think.
-<br><br>9. Name your entry in the format, Name_Institute
+<ol>
+<li>Only digital submissions are accepted, i.e. the participant cannot take a printout of their
+picture and draw over it.</li><li>
+Comic has to be 4 panels in length.</li><li>
+One entry per event per person is allowed, i.e. a person can have two entries in total.
+Both events will be judged separately.</li><li>
+You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
+have to be hand&minus;drawn. You can however edit text onto the image.</li><li>
+The picture has to be clicked by the participant. You will have to provide EXIF
+information of the images used for verification. (details mentioned below)</li><li>
+There is no particular theme for the comic/image, just go with the flow! </li><li>
+Name your entry in the format, Name_Institute </li>
+</ol>
 <br><br>Apps that can be used for the event :
-<br><br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
-<br><br>participants who might not have access to most tools
-<br><br>● PicsArt
-<br><br>● Autodesk Sketchbook
-<br><br>● Instagram
-<br><br>● Google Storyboard (for comics)
-<br><br>● Adobe Inkscape (laptop only)
+<br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
+participants who might not have access to most tools
+<ul>
+<li>PicsArt</li><li>
+Autodesk Sketchbook</li><li>
+Instagram</li><li>
+ Google Storyboard (for comics)</li><li>
+ Adobe Inkscape (laptop only)</li>
+</ul>
 <br><br>EXIF information :
 <br><br>1. Share EXIF info for each of the images used.
-<br><br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
-<br><br>b. For Google photos you just need to swipe up to find EXIF info.
-<br><br>c If you're using a PC just right click on the photo and go to properties to find EXIF info.
-<br><br>3. Share the original image you used to create the entry.
+<br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
+<br>b. For Google photos you just need to swipe up to find EXIF info.
+<br>c. If you're using a PC just right click on the photo and go to properties to find EXIF info.
+<br>3. Share the original image you used to create the entry.
   `;
 
   timeline.innerHTML =`
@@ -111,14 +214,21 @@ event. Alumnus not allowed to participate.
   <br><br>  3. 3rd April &minus; Announcement of results
   `;
 
-  sub_details.innerHTML=`will be updated shortly`;
+  sub_details.innerHTML=`
+Entries must be submitted using the google form which will be circulated.
+
+<br><br>Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
+<br>By participating, you give consent to the Revival Core Committee for such use.
+<br>In case of any issue, do contact your respective institute’s Revival Secretary.
+https://forms.gle/przUVdSMPNk2rNi27`;
 
   contact.innerHTML=`
-  Contact us &minus;
-<br><br> Sagnik C &minus; +91 9748216919
-<br><br> Gowri N  &minus; +91 8086030097
-<br><br> @pixels_iiserpune
-<br><br> @artclub_iiserp
+
+ Sagnik C &minus; +91 9748216919
+<br> Gowri N  &minus; +91 8086030097  <a href="https://www.instagram.com/_._gowriii/" style="color:blue;">@_._gowriii</a>
+<br>  <a href="https://www.instagram.com/pixels_iiserpune/?hl=en" style="color:blue;">@pixels_iiserpune</a>
+<br>  <a href="https://www.instagram.com/artclub_iiserp/?hl=en" style="color:blue;">@artclub_iiserp</a>
+
   `;
 
   //show the popup
@@ -169,9 +279,6 @@ The submission with the best combined score for the short story and the cover ar
   elegibility.innerHTML=`
   The participating group should be a currently enrolled student of any of the participating institutes (All IISERs, NISER, IISc, CEBS). Alumnus not allowed to participate.<br><br>
 This is a group event and will operate on the basis of submissions.<br><br>
-Every member of a team should be from the same institution.<br><br>
-
-
   `;
 
   guidelines.innerHTML=`
@@ -260,14 +367,14 @@ Runner’s Up: 1500 INR
   `;
 
   guidelines.innerHTML=`
-All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form. <br><br>
-Further instructions, mode of submission and character assignments will be sent out to the participants on 14th march 2021. <br><br>
- The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play. <br><br>
-The play can be in any language but English subtitles are mandatory. <br><br>
-The script should be uploaded with a video file in English language only. <br><br>
-Please avoid abusive or derogatory speech.
 
-
+      The participating group should be currently enrolled students of the participating  institutes-IISERS, NISER, IISc and CEBS. Alumnus not allowed to participate.
+<br>All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
+<br>Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.
+<br>The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play.
+<br>The play can be in any language but English subtitles are mandatory.
+<br>The script should be uploaded with a video file in English language only.
+<br>Please avoid abusive or derogatory speech.
   `;
 
   timeline.innerHTML =`
@@ -299,9 +406,9 @@ function trashion(){
 
   img.src = `./img/events/trashion.jpg`;
 
-  $('#regbtn2').attr('href','https://forms.gle/hiNFgXg7gWrEbshq6');
+  $('#regbtn2').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSfJsQyYN7QwUxIIY8UnDT2kqjoL7pEp9i0Q8ZqbicvQ-1IHtw/viewform');
 
-  $('#regbtn').attr('href','https://forms.gle/hiNFgXg7gWrEbshq6');
+  $('#regbtn').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSfJsQyYN7QwUxIIY8UnDT2kqjoL7pEp9i0Q8ZqbicvQ-1IHtw/viewform');
 
   event_name.innerHTML=`TRASHION`;
 
@@ -309,58 +416,52 @@ function trashion(){
 
   about.innerHTML=`Are you a spendthrift who ponders a lot about the unaffordability of fashion? Are you someone who craves the joy of trying on the most novel clothing during the pandemic? Do you have a creative streak? If yes, then “trashion” is just for you! Be the trend you wish to see!
 Trashion presents a unique opportunity to creatively unleash your inner fashionista, that too on a budget! Design your own apparel with trash and become a fashion influencer yourself!
-
-    `;
+      `;
 
   event_details.innerHTML =`
--
   `;
 
-  prizes.innerHTML=`-
+  prizes.innerHTML=`
+      Winner - Rs 1500
+<br><br>1st Runner up - Rs 1000
+<br><br>2nd Runner up - Rs 500
   `;
 
-  judging_criteria.innerHTML=`
-
-Theme Selection, Use of materials, originality, presentation, Grooming, Confidence, Attention details with accessories and costume, Overall Impact
-
+  judging_criteria.innerHTML=`Theme Selection, Use of materials, originality, presentation, Grooming, Confidence, Attention details with accessories and costume, Overall Impact
   `;
 
   elegibility.innerHTML=`
-This is a Team event. Only students of IISERs, NISER, CEBS and IISc can form teams (within respective institutes) and are allowed to participate. <br><br>
-Team 2-10
-
+This is a Team event. Only students of IISERs, NISER, CEBS and IISc can form teams (within respective institutes) and are allowed to participate.
  `;
 
   guidelines.innerHTML=`
-Make apparel (clothing or outfit worn in a function) out of the materials which are normally thrown out as waste. <br><br>
-Every Team must have a theme. The theme can be decided by the team itself. <br><br>
-Wear the dress/apparel yourself and record a video of around 30 seconds each which clearly shows the dress from all the directions (Front view, back view, right view, left view, etc)
-Backing track/music is allowed in the video file. <br><br>
-Make a list of all the waste materials used in a .pdf format. <br><br>
-Only 1 entry is allowed per participant <br><br>
-Note that the video should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification <br><br>
-Newspapers, magazines, paper bags, fabric strips, jute bags, gift wraps, etc are some examples of the waste materials which can be used <br><br>
-Only the shape/size of the waste materials is allowed to change. Modifying any other physical attribute is not allowed (Example - Painting newspapers is not allowed. You are only allowed to change the shape/size of a newspaper). <br><br>
-Only waste materials are to be used. You can’t use newly bought fresh materials <br><br>
-Ready-made costumes are not allowed, but there is no restriction on improvising. <br><br>
-No form of obscenity will be encouraged and it can lead to immediate disqualification. <br><br>
-
+        This is a Solo event. Only students of IISERs, NISER, CEBS and IISc are allowed to participate.
+<br><br>Make apparel (clothing or outfit worn in a function) out of the materials which are normally thrown out as waste.
+<br><br>Every entry must have a theme. The theme can be decided by the participant itself.
+<br><br>Wear the dress/apparel yourself and record a video of around 30 seconds each which clearly shows the dress from all the directions (Front view, back view, right view, left view, etc)
+<br><br>Submit 4 photographs one from each - front, back, right and left views.
+<br><br>Backing track/music is allowed in the video file.
+<br><br>Make a list of all the waste materials used in a .pdf format.
+<br><br>Only 1 entry is allowed per participant
+<br><br>Note that the video and photographs should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification
+<br><br>Newspapers, magazines, paper bags, fabric strips, jute bags, gift wraps, etc are some examples of the waste materials which can be used
+<br><br>Only the shape/size of the waste materials is allowed to change. Modifying any other physical attribute is not allowed (Example - Painting newspapers is not allowed. You are only allowed to change the shape/size of a newspaper).
+<br><br>Only waste materials are to be used. You can’t use newly bought fresh materials
+<br><br>Ready-made costumes are not allowed, but there is no restriction on improvising.
+<br><br>No form of obscenity will be encouraged and it can lead to immediate disqualification.
   `;
 
-  timeline.innerHTML =`  Registration Begins: 6th March
-<br><br>  Registration Ends : 10th March
-<br><br>  Submission Begins: 8th March
-<br><br>  Last day of Submission: 27th March, 11:59 PM
-
+  timeline.innerHTML =`
+  Registration and Submission Begins: 8th March<br><br>
+  Last day of Submission: 27th March, 11:59 PM
   `;
 
   sub_details.innerHTML=``;
 
   contact.innerHTML=`
 Harshit Pal - 9974857459 <br><br>
-@i_m_hazlitt <br><br>
-@celebrations.at.iiserbpr
-
+<a href="https://www.instagram.com/i_m_hazlitt/">@i_m_hazlitt</a><br><br>
+<a href="https://www.instagram.com/celebrations.at.iiserbpr/">@celebrations.at.iiserbpr</a>
   `;
 
   //show the popup
@@ -675,7 +776,7 @@ Judgement will be done on the basis of originality, creativity, music sense, dif
 
   `;
 
-  elegibility.innerHTML=` Students(Alumi, faculty) from participating intitutes are allowed.
+  elegibility.innerHTML=` Only current Students from participating intitutes are allowed.
 
   `;
 
@@ -829,8 +930,9 @@ function mela_quiz(){
   subname.innerHTML=`Online quiz based on music, entertainment, literature and arts.`;
 
   about.innerHTML=`
-Do you know a lot about the latest trendy songs, stay updated about the newest Bollywood movies and the best books? Well, IISER Thiruvananthapuram is here with the perfect opportunity to put this trivia knowledge to good use - the MELA Quiz! The quiz will be focused on music, entertainment, literature and arts. An amazing platform to showcase your fine arts knowledge!
-Getting down to the nitty-gritty, the competition will take place  in two sessions (a prelim and the final),  through Discord. Teams of two can participate. Stay tuned for further updates!
+  Please change this to: Do you ever feel that your brain save way more pop-culture information as opposed to things in your actual curriculum? Well then, hold on to your knowledge about the latest movies, the best of the books, and the chart topping songs and the news buzz for the brand new MELA QUIZ!, conducted by IISER TVM.
+  <br><br>
+  Become the trivia queens (and kings, of course) by sailing through the prelims and the finals.
 
     `;
 
@@ -839,10 +941,11 @@ Getting down to the nitty-gritty, the competition will take place  in two sessio
   `;
 
   prizes.innerHTML=`
+  IISER TVM Quiz Club will update soon.
   `;
 
   judging_criteria.innerHTML=`
-
+N.A.
   `;
 
   elegibility.innerHTML=`
@@ -850,14 +953,28 @@ Team size: 2
   `;
 
   guidelines.innerHTML=`
+  - A team shall consist of a maximum of 2 members. Lone wolves are welcome. (Participants need not to be from the same institute)
+
+<br><br>  - There is no restriction on the number of teams from an institute
+
+<br><br>  - Participants are encouraged to pre-register. However, spot registrations may be permitted as per the situation.
+
+<br><br>  - The quiz will happen in two rounds, prelims and finals.
+
+<br><br>  - All decisions made by the Quizmaster, including those regarding tie-breaks, will be final.
+
+<br><br>  - Further instructions will be given on the day of the quiz.
+
+<br><br>  - Any form of malpractice is discouraged. If any of the teams are found carrying out such behavior, they will be disqualified.
 
   `;
 
   timeline.innerHTML =`
-
+  Registration: 26th March - 02nd April
+<br><br> Quiz happens of 03rd
   `;
 
-  sub_details.innerHTML=``;
+  sub_details.innerHTML=`N.A.`;
 
   contact.innerHTML=`
 Contact information: <br><br>
