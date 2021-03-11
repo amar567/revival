@@ -176,50 +176,53 @@ The submission with the best combined score for the short story and the cover ar
   `;
 
   judging_criteria.innerHTML=`
-  <br><br>
-  The literary judges will be provided with the full story, the relevant description and the cover image as well, and the literary aspect will be judged on the basis of a number point scale with different metrics (viz. creativity, grammar, structure) out of 10.<br><br>
-  The art judges will also be provided with the artwork, the description/relevance of the artwork, and the full story for reference. They will judge only the art aspect, and how well it relates to the description, on a number metric, out of 10.<br><br>
-  The short description of the cover art will not be judged on the basis of grammar or any literary metric, only the relevance with the story will be taken into consideration.<br><br>
+  1.The literary judges will be provided with the full story, the relevant description and the cover image as well, and the literary aspect will be judged on the basis of a number point scale with different metrics (viz. creativity, grammar, structure) out of 10.<br><br>
+  2.The art judges will also be provided with the artwork, the description/relevance of the artwork, and the full story for reference. They will judge only the art aspect, and how well it relates to the description, on a number metric, out of 10.<br><br>
+  3.The short description of the cover art will not be judged on the basis of grammar or any literary metric, only the relevance with the story will be taken into consideration.<br><br>
+  4.Detailed judging criterion will be mailed to the registered participants.
 
   `;
 
   elegibility.innerHTML=`
-  The participating group should be a currently enrolled student of any of the participating institutes (All IISERs, NISER, IISc, CEBS). Alumnus not allowed to participate.<br><br>
-This is a group event and will operate on the basis of submissions.<br><br>
+  1.The participating group should be a currently enrolled student of any of the participating institutes (All IISERs, NISER, IISc, CEBS). Alumnus not allowed to participate.<br><br>
+2.This is a group event of 2-4 students and will operate on the basis of submissions.
   `;
 
   guidelines.innerHTML=`
-  2 - 4 students per group
-  The contestants will write a 500 - 750 words story based on the given abstract/prompt and then make a befitting cover art for their story. They also need to write a brief description (50-100 words) about how the cover art relates to the story.<br><br>
-The cover art should not be made/edited digitally. It should be drawn/sketched/painted by you on paper.<br><br>
-The abstract/prompts will be given on 9th March 2021, and the registration will be open from 9th to 13th March 2021. After 13th, the registration time will be closed and
+  1.The contestants will write a 500 - 750 words story based on the given abstract/prompt and then make a befitting cover art for their story.<br>
+ They also need to write a brief description (50-100 words) about how the cover art relates to the story.<br><br>
+  2.The cover art should not be made/edited digitally. It should be drawn/sketched/painted by you on paper.<br><br>
+  3.The abstract/prompts will be provided after registration.<br>
+Registration will be open from 9th to 13th March 2021.<br>
+After 13th, the registration time will be closed and
 only those teams who had registered would be considered for judging.<br><br>
-All further communications with the participants will be done through the mail/contact provided in the registration form.<br><br>
-Any entries which are found to be plagiarised will be instantly disqualified.<br><br>
-The result of the event will be delivered by the 4th of April.<br><br>
+  4.All further communications with the participants will be done through the mail/contact provided in the registration form.<br><br>
+  5.Any entries which are found to be plagiarised will be instantly disqualified.
+
 
   `;
 
   timeline.innerHTML =`
-<br><br>  March 9th: Abstract will be given
-<br><br>  March 9th: Google form Registrations opens.
-<br><br>  March 13th: Google form Registrations closes.
-<br><br>  March 14th: Google form submission opens.
-<br><br>  March 25th: Google form submission closes.
-<br><br>  April 4nd: Result Declaration.
+      March 9th: Google form Registrations opens.
+<br>  March 13th: Google form Registrations closes.
+<br>  March 14th: Google form submission opens.
+<br>  March 27th: Google form submission closes.
+<br>  April 4th: Result Declaration.
   `;
 
   sub_details.innerHTML=`
-  The cover art and the brief description should be in one pdf file and the story in another.<br><br>
-  The teams are expected to upload their pdf files (both story and [cover-art+description]) in a single drive folder and provide the link to the folder in the submission form.<br><br>
-  Do not mention the name of the participants anywhere in any of the documents.<br><br>
-  The file name should be of the format “Articulate_teamname_(story/cover)”<br><br>
-  The submission link for the event will be available on 14th March and it will be active till 27th March.<br><br>
-
+  1. The cover art and the brief description should be in one pdf file and the story in another.<br><br>
+  2. The teams are expected to upload their pdf files (both story and [cover-art+description]) in a single drive folder and provide the link to the folder in the submission form.<br><br>
+  3. Do not mention the name of the participants anywhere in any of the documents.<br><br>
+  4. The file name for story should be of the format  “Articulate_teamname_story”, for the cover image and image description should be “Articulate_teamname_cover” and the drive folder should be “Articulate_teamname”.<br><br>
+  
+Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
+<br> By participating, you give consent to the Revival Core Committee for such use.<br>
+ In case of any issue, do contact your respective institute’s Revival Secretary.
   `;
 
   contact.innerHTML=`
-  Arnab Lahiry (8697949062) @spy.d_42 (arnab@students.iisertirupati.ac.in) <br><br>
+  Arnab Lahiry (8697949062) <a href="https://www.instagram.com/spy.d_42/" style="color:blue;">@spy.d_42</a> (arnab@students.iisertirupati.ac.in) <br><br> 
   Chaitanya Chawak (9405907765) (chaitanyachawak@students.iisertirupati.ac.in)<br><br>
   Sushmita Halder (8929798359) (sushmitahalder@students.iisertirupati.ac.in) <br><br>
   `;
