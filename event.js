@@ -50,67 +50,59 @@ function picomix(){
   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
 
+  event_details.innerHTML =`
+  The event consists of two parts:<br><br>
+A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software<br><br>
+B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software<br><br>
+1. All the entries will be uploaded on social media by the Revival committee.<br><br>
+2. Entries must be submitted using the google form which will be circulated<br><br>
+3. This is a solo online event.<br><br>
+  `;
+
   prizes.innerHTML=`
-    Prizes in each category &minus;<br>
- Winner awarded with ₹1000, <br>
-Runner up awarded with ₹750 for first event and ₹500 for the second event respectively.<br><br>
+    Prizes in each category &minus; Winner awarded with ₹1000, runner up <br><br>
+    awarded with ₹750 for<br><br>
+    first event and ₹750 and ₹500 respectively for the second event .<br><br>
   `;
 
   judging_criteria.innerHTML=`
-    There will be 3 judges for the event, and judging will be based on how unique the idea is,
-and how much it makes us feel/think.
+    Will be announced shortly
   `;
 
   elegibility.innerHTML=`
-  <ol>
-<li>Students from the IISERs, NISER, IISC, CEBS only are allowed to participate in the
-event. Alumnus not allowed to participate.</li>
-<li>This is a solo online event.</li>
-</ol>
+  Students from the IISERs, NISER, IISC, CEBS only are allowed to participate in the
+event. Alumnus not allowed to participate.
   `;
 
-
-
   guidelines.innerHTML=`
-The event consists of two parts:
-<ul>
-<li>A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
-<li>B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
-</ul>
-<ol>
-<li>Only digital submissions are accepted, i.e. the participant cannot take a printout of their
-picture and draw over it.</li><li>
-Comic has to be 4 panels in length.</li><li>
-One entry per event per person is allowed, i.e. a person can have two entries in total.
-Both events will be judged separately.</li><li>
-You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
-have to be hand&minus;drawn. You can however edit text onto the image.</li><li>
-The picture has to be clicked by the participant. You will have to provide EXIF
-information of the images used for verification. (details mentioned below)</li><li>
-There is no particular theme for the comic/image, just go with the flow! </li><li>
-Name your entry in the format, Name_Institute </li>
-</ol>
-<br>Apps that can be used for the event :
-<br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
-participants who might not have access to most tools
-<ul style="list-style-type:disc;">
-<li>PicsArt</li><li>
-Autodesk Sketchbook</li><li>
-Instagram</li><li>
- Google Storyboard (for comics)</li><li>
- Adobe Inkscape (laptop only)</li>
-</ul>
-<br>EXIF information :
-<ol>
-<li>Share EXIF info for each of the images used.</li><li>
-<ol type="a">
-<li> To find EXIF info in the gallery app go to the menu and tap on info.</li>
-<li> For Google photos you just need to swipe up to find EXIF info.</li>
-<li>If you're using a PC just right click on the photo and go to 
-properties to find EXIF info.</li>
-</ol></li>
-<li> Share the original image you used to create the entry.</li>
-</ol>
+  Participant’s Guidelines
+<br><br>1. Only digital submissions are accepted, i.e. the participant cannot take a printout of their
+<br><br>picture and draw over it.
+<br><br>2. Comic has to be 4 panels in length.
+<br><br>3. One entry per event per person is allowed, i.e. a person can have two entries in total.
+<br><br>4. Both events will be judged separately.
+<br><br>5. You cannot overlay pre&minus;existing ClipArt over the images for the events, everything will
+<br><br>have to be hand&minus;drawn. You can however edit text onto the image.
+<br><br>6. The picture has to be clicked by the participant. You will have to provide EXIF
+<br><br>information of the images used for verification. (details mentioned below)
+<br><br>7. There is no particular theme for the comic/image, just go with the flow!
+<br><br>8. There will be 3 judges for the event, and judging will be based on how unique the idea is,
+<br><br>and how much it makes us feel/think.
+<br><br>9. Name your entry in the format, Name_Institute
+<br><br>Apps that can be used for the event :
+<br><br>Note that we’re putting a cap on the “advancedness” of the software to make it fair to
+<br><br>participants who might not have access to most tools
+<br><br>● PicsArt
+<br><br>● Autodesk Sketchbook
+<br><br>● Instagram
+<br><br>● Google Storyboard (for comics)
+<br><br>● Adobe Inkscape (laptop only)
+<br><br>EXIF information :
+<br><br>1. Share EXIF info for each of the images used.
+<br><br>2. a. To find EXIF info in the gallery app go to the menu and tap on info.
+<br><br>b. For Google photos you just need to swipe up to find EXIF info.
+<br><br>c If you're using a PC just right click on the photo and go to properties to find EXIF info.
+<br><br>3. Share the original image you used to create the entry.
   `;
 
   timeline.innerHTML =`
