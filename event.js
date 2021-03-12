@@ -658,9 +658,9 @@ function poetry_slam(){
 
   img.src = `./img/events/poetry_slam.jpg`;
 
-  $('#regbtn2').attr('href','');
+  $('#regbtn2').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
 
-  $('#regbtn').attr('');
+  $('#regbtn').attr('https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
 
   event_name.innerHTML=`POETRY SLAM`;
 
@@ -792,7 +792,8 @@ Record your video in a still frame, camera shouldn’t be moving. </li><li>
 The video should not be edited and completed in a single shot. </li><li>
 The video should not be longer than 2 minutes.</li>
 </ol>
- To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below. <br><br>
+<br><br>
+ To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below. 
 
 <ol> 
 <li>Use your institute e-mail IDs only to fill this form. Entries from Multiple or non-institution email IDs will not be accepted. </li><li>
@@ -800,8 +801,8 @@ The video file should not be more than 500 mb in size. </li><li>
 The video should be in MP4 format specifically. </li><li>
 Please use the nomenclature. Name_Institution code (e.g., Naman Mishra_10). Please find the institution code at the end of this rulebook.</li>
 </ol>
-
-Institute codes: S. No. is the code. <br><br>
+<br><br>
+Institute codes: S. No. is the code. 
 <ol>
 <li>
 Indian Institute of Science Education and Research, Kolkata </li><li>
@@ -815,6 +816,7 @@ National Institute of Science Education and Research, Bhubaneshwar </li><li>
 Indian Institution of Science, Bangalore </li><li>
 Centre for Excellence in Basic Sciences, Mumbai</li>
 </ol>
+<br><br>
 Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
 
 
@@ -884,19 +886,22 @@ Winners will be declared on the basis of highest points (calculated after 24 hou
   `;
 
   elegibility.innerHTML=`
-The participating individual should be a currently enrolled student of the participating institutes. <br><br>
-This is a solo event and will operate on basis of submissions. <br><br>
+<ul style="list-style-type:disc;">
+<li>The participating individual should be a currently enrolled student of the participating institutes. </li><li>
+This is a solo event and will operate on basis of submissions. </li>
+</ul>
 
   `;
 
   guidelines.innerHTML=`
-
-This is a solo event, each participant can send only 1 photo. <br><br>
-Photo should be in JPG/JPEG format. <br><br>
-The participant is expected to send us the photo between 14/03/2021 & 27/03/2021. <br><br>
-Only entries from Google form will be considered. <br><br>
-You are supposed to provide us a Google drive link to your photo from where we can download it. <br><br>
-Due to Google’s policies, you will need to provide access when requested. (Just sharing the link is not enough.) <br><br>
+<ol>
+<li>This is a solo event, each participant can send only 1 photo. </li><li>
+Photo should be in JPG/JPEG format. </li><li>
+The participant is expected to send us the photo between 14/03/2021 & 27/03/2021. </li><li>
+Only entries from Google form will be considered. </li><li>
+You are supposed to provide us a Google drive link to your photo from where we can download it. </li><li>
+Due to Google’s policies, you will need to provide access when requested. (Just sharing the link is not enough.) </li>
+</ol>
 
 
   `;
