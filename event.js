@@ -47,7 +47,11 @@ function picomix(){
 
   about.innerHTML=`
   Are your creative senses tingling?
-  Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
+  Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>
+𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>
+Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, 
+and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and
+you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
 event_details.innerHTML =`
 
@@ -56,7 +60,7 @@ event_details.innerHTML =`
   prizes.innerHTML=`
     Prizes in each category &minus;<br>
  Winner awarded with ₹1000, <br>
-Runner up awarded with ₹750 for first event and ₹500 for the second event respectively.<br><br>
+Runner up awarded with ₹750 for first event and ₹500 for the second event respectively.
   `;
 
   judging_criteria.innerHTML=`
@@ -133,11 +137,12 @@ Entries must be submitted using the google form which will be circulated.
 https://forms.gle/przUVdSMPNk2rNi27`;
 
   contact.innerHTML=`
-  
- Sagnik C &minus; +91 9748216919
-<br> Gowri N  &minus; +91 8086030097  <a href="https://www.instagram.com/_._gowriii/" style="color:blue;">@_._gowriii</a>
-<br>  <a href="https://www.instagram.com/pixels_iiserpune/?hl=en" style="color:blue;">@pixels_iiserpune</a>
-<br>  <a href="https://www.instagram.com/artclub_iiserp/?hl=en" style="color:blue;">@artclub_iiserp</a>
+  <ul style="list-style-type:disc;">
+<li>Sagnik C &minus; +91 9748216919</li><li>
+ Gowri N  &minus; +91 8086030097  <a href="https://www.instagram.com/_._gowriii/" style="color:blue;">@_._gowriii</a></li><li>
+  <a href="https://www.instagram.com/pixels_iiserpune/?hl=en" style="color:blue;">@pixels_iiserpune</a></li><li>
+  <a href="https://www.instagram.com/artclub_iiserp/?hl=en" style="color:blue;">@artclub_iiserp</a></li>
+</ul>
 
   `;
 
@@ -196,13 +201,14 @@ This is a group event of 2-4 students and will operate on the basis of submissio
   `;
 
   guidelines.innerHTML=`
-  1.The contestants will write a 500 - 750 words story based on the given abstract/prompt and then make a befitting cover art for their story.<br>
- They also need to write a brief description (50-100 words) about how the cover art relates to the story.<br><br>
-  2.The cover art should not be made/edited digitally. It should be drawn/sketched/painted by you on paper.<br><br>
-  3.The abstract/prompts will be provided after registration.<br>
+<ol>
+  <li>The contestants will write a 500 - 750 words story based on the given abstract/prompt and then make a befitting cover art for their story.<br>
+ They also need to write a brief description (50-100 words) about how the cover art relates to the story.</li><li>
+  The cover art should not be made/edited digitally. It should be drawn/sketched/painted by you on paper.</li><li>
+  The abstract/prompts will be provided after registration.<br>
 Registration will be open from 9th to 13th March 2021.<br>
 After 13th, the registration time will be closed and
-only those teams who had registered would be considered for judging.<br><br>
+only those teams who had registered would be considered for judging.</li><li>
   4.All further communications with the participants will be done through the mail/contact provided in the registration form.<br><br>
   5.Any entries which are found to be plagiarised will be instantly disqualified.
 
@@ -211,19 +217,21 @@ only those teams who had registered would be considered for judging.<br><br>
 
   timeline.innerHTML =`
 <ul style="list-style-type:disc;">
-   li>   March 9th: Google form Registrations opens.</li><li>
+   <li>   March 9th: Google form Registrations opens.</li><li>
 March 13th: Google form Registrations closes.</li><li>
  March 14th: Google form submission opens.</li><li>
  March 27th: Google form submission closes.</li>
-0<li>
-<br>  April 4th: Result Declaration.
+<li>  April 4th: Result Declaration.</li>
+</ul>
   `;
 
   sub_details.innerHTML=`
-  1. The cover art and the brief description should be in one pdf file and the story in another.<br><br>
-  2. The teams are expected to upload their pdf files (both story and [cover-art+description]) in a single drive folder and provide the link to the folder in the submission form.<br><br>
-  3. Do not mention the name of the participants anywhere in any of the documents.<br><br>
-  4. The file name for story should be of the format  “Articulate_teamname_story”, for the cover image and image description should be “Articulate_teamname_cover” and the drive folder should be “Articulate_teamname”.<br><br>
+<ol>
+<li>The cover art and the brief description should be in one pdf file and the story in another.</li><li>
+The teams are expected to upload their pdf files (both story and [cover-art+description]) in a single drive folder and provide the link to the folder in the submission form.</li><li>
+Do not mention the name of the participants anywhere in any of the documents.</li><li>
+The file name for story should be of the format  “Articulate_teamname_story”, for the cover image and image description should be “Articulate_teamname_cover” and the drive folder should be “Articulate_teamname”.</li>
+</ol>
   
 Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
 <br> By participating, you give consent to the Revival Core Committee for such use.<br>
