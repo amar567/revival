@@ -958,7 +958,7 @@ All participants are required to fill the form within the deadline and all furth
   contact.innerHTML=`Contact us :- Shounak Hinge, convener, Lumière <br><br>
 9145496175 <br><br>
 29shounak.hinge@gmail.com <br><br>
-@shounak_hinge
+<a href="https://www.instagram.com/shounak_hinge/" style="color:blue;">@shounak_hinge</a><br>
 <a href="https://www.instagram.com/lumiere.iiserm/" style="color:blue;">Lumière Instagram page</a>
 
   `;
