@@ -657,10 +657,10 @@ function poetry_slam(){
   img2.src = `./img/events/poetry_slam.jpg`;
 
   img.src = `./img/events/poetry_slam.jpg`;
-
+  
   $('#regbtn2').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
 
-  $('#regbtn').attr('https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
+  $('#regbtn').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
 
   event_name.innerHTML=`POETRY SLAM`;
 
