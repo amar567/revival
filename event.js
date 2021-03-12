@@ -568,9 +568,9 @@ function lazarus(){
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
 <li>  Aayush Srivastav - 6266748990 <a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">@musicclubofiiserk</a></li><li>
-  Soumi Bhattacharyya - 6291141950 <a href="https://www.instagram.com/soumi_hiya/" style="color:blue;">@soumi_hiya</li><li>
-  Sroyon Sengupta -  9748960044 <a href="https://www.instagram.com/auditore_de_ssg/" style="color:blue;">@auditore_de_ssg</li><li>
-  Shubhamay - 8918115319 <a href="https://www.instagram.com/shubhmay8380/" style="color:blue;">@shubhmay8380</li><li>
+  Soumi Bhattacharyya - 6291141950 <a href="https://www.instagram.com/soumi_hiya/" style="color:blue;">@soumi_hiya</a></li><li>
+  Sroyon Sengupta -  9748960044 <a href="https://www.instagram.com/auditore_de_ssg/" style="color:blue;">@auditore_de_ssg</a></li><li>
+  Shubhamay - 8918115319 <a href="https://www.instagram.com/shubhmay8380/" style="color:blue;">@shubhmay8380</a></li><li>
   music.activity@iiserkol.ac.in</li><li>
 </ul>
   `;
@@ -607,10 +607,11 @@ The top three teams to make it to the end will be rewarded.
   `;
 
   prizes.innerHTML=`
+IISER Bhopal’s Organising Team will update soon.
   `;
 
   judging_criteria.innerHTML=`
-
+IISER Bhopal’s Organising Team will update soon.
   `;
 
   elegibility.innerHTML=`
@@ -620,23 +621,30 @@ Team size Maximum limit 4
   `;
 
   guidelines.innerHTML=`
-
+IISER Bhopal’s Organising Team will update soon.
   `;
 
   timeline.innerHTML =`
-
+<ul style="list-style-type:disc;">
+<li>28th March 2021 &minus; Registartion Opens</li><li>
+30th March 2021 &minus; Registration Closes</li><li>
+30th March 2021 &minus; Event starts</li><li>
+4th April 2021 &minus; Event ends</li>
+</ul>
   `;
 
   sub_details.innerHTML=``;
 
-  contact.innerHTML=`Sarthak - +91 7077965840  @sathak.g_art <br><br>
-Harshwardhan - +91 6263163831 <br><br>
+  contact.innerHTML=`
+<ul>
+<li>
+Sarthak - +91 7077965840  <a href="https://www.instagram.com/sathak.g_art/" style="color:blue;">@sathak.g_art</a> </li><li>
+Harshwardhan - +91 6263163831 </li><li>
 
-@falc_iiserb <br><br>
+<a href="https://www.instagram.com/falc_iiserb/" style="color:blue;">@falc_iiserb</a> </li><li>
 
-@iiserb.cultural <br><br>
-
-
+<a href="https://www.instagram.com/iiserb.cultural/" style="color:blue;">@iiserb.cultural</a> </li>
+</ul>
   `;
 
   //show the popup
@@ -685,32 +693,32 @@ The participants will essentially be asked to recite poems of their own composit
   `;
 
   guidelines.innerHTML=`
-  Solo event - 1
-  <br><br>
-  1. Each poem must be of the poet’s own creation.
-<br><br>
-2. Memorization is not required or necessary. The poet may choose to read off a sheet of paper or notebook or read off of their phone(s).
-<br><br>
-3. Each poet gets three minutes (plus a ten-second grace period) to read one poem. If the poet goes over time, points will be deducted from the total score by the scorekeeper. The
+  <ol>
+  <li> Each poem must be of the poet’s own creation.</li><li>
+ Memorization is not required or necessary. The poet may choose to read off a sheet of paper or notebook or read off of their phone(s).
+</li><li>
+ Each poet gets three minutes (plus a ten-second grace period) to read one poem. If the poet goes over time, points will be deducted from the total score by the scorekeeper. The
 poem/performance will lose .5 (point 5) off of their score for each 10 seconds they go over.
-<br><br>
-4. The poet may NOT use props, costumes, pre-recorded/taped music, or musical instruments while performing. It’s just you and your poem on stage. BUT you are allowed to sing or beat box or make any other sounds with your body in your performance.
-<br><br>
-5. There is NO restriction on language used in the poem. Any language, even multiple languages, may be used. However, each poet must provide translations for every non-English word used in the poem. If the entire poem is in a language other than
+</li><li>
+ The poet may NOT use props, costumes, pre-recorded/taped music, or musical instruments while performing. It’s just you and your poem on stage. BUT you are allowed to sing or beat box or make any other sounds with your body in your performance.
+</li><li>
+ There is NO restriction on language used in the poem. Any language, even multiple languages, may be used. However, each poet must provide translations for every non-English word used in the poem. If the entire poem is in a language other than
 English, then a full translation (effective translation, not a word-by-word translation necessarily) must be provided.
-<br><br>
-6. The time required to read/narrate the translation will NOT be counted in the 3 mins that are allotted to every participant. Extra 3 mins will be given (without penalty) if the poet has to offer a translation.
-<br><br>
-7. The poem may NOT include sexist, racist, homophobic, or transphobic comments. However anger, upset and frustration are totally legit emotions to express in your poem, just be creative in how you go about doing it.
-<br><br>
-8. The poet receives scores out of 10 from each judge.
-<br><br>
-9. Registration forms will be sent out and the participants must register before the event. NO unregistered participation request will be entertained on the day of the event itself.
-<br><br>
+</li><li>
+ The time required to read/narrate the translation will NOT be counted in the 3 mins that are allotted to every participant. Extra 3 mins will be given (without penalty) if the poet has to offer a translation.
+</li><li>
+ The poem may NOT include sexist, racist, homophobic, or transphobic comments. However anger, upset and frustration are totally legit emotions to express in your poem, just be creative in how you go about doing it.
+</li><li>
+ The poet receives scores out of 10 from each judge.
+</li><li>
+ Registration forms will be sent out and the participants must register before the event. NO unregistered participation request will be entertained on the day of the event itself.
+</li>
+</ol>
 
   `;
 
   timeline.innerHTML =`
+
 
   `;
 
