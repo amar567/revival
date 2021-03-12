@@ -134,7 +134,7 @@ Entries must be submitted using the google form which will be circulated.
 <br><br>Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. 
 <br>By participating, you give consent to the Revival Core Committee for such use. 
 <br>In case of any issue, do contact your respective institute’s Revival Secretary.
-https://forms.gle/przUVdSMPNk2rNi27`;
+`;
 
   contact.innerHTML=`
   <ul style="list-style-type:disc;">
@@ -283,9 +283,13 @@ Runner’s Up: 1500 INR
 
   `;
 
-  judging_criteria.innerHTML=`Facial expressions, body language, dialogue delivery by actors and theme, plot development, character utilisation of the script will be prime considerations for judgement. <br><br>
- There will be negative marking if the upper cap of the video limit is exceeded. <br><br>
- Finer video editing would gain extra points.
+  judging_criteria.innerHTML=`
+<ul style="list-style-type:disc;">
+<li>Facial expressions, body language, dialogue delivery by actors and theme, plot development, character utilisation of the script will be prime considerations for judgement.</li><li>
+There will be negative marking if the upper cap of the video limit is exceeded.</li><li>
+Finer video editing would gain extra points. </li>
+</ul>
+
 
 
   `;
@@ -298,7 +302,7 @@ Runner’s Up: 1500 INR
 <ol>
 <li>This is a group event and will operate on basis of video submissions.</li><li>
     Each group would be given 4 random characters and they need to evolve a plot to present all four characters in a single play.</li><li>
-    A team can choose extra two characters of their choice to assist their plot. So a maximum of 6 students can participate.</li>
+    A team can choose extra two characters of their choice to assist their plot. So a maximum of 6 students can participate.</li><li>
 All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.</li><li>
 Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.</li><li>
 The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play.</li><li>
@@ -311,8 +315,8 @@ Please avoid abusive or derogatory speech.</li>
   timeline.innerHTML =`
 <ul style="list-style-type:disc;">
 <li>Registration opens on 7th march 2021.</li><li>
-Registration form will be circulated and should be filled latest by 13th March 2021, 11:59pm.</li><li>
-Deadline for submission of the video of the play will be 24th March 2021, 11:59pm.</li><li>
+Registration form should be filled latest by 13th March 2021, 11:59pm.</li><li>
+Deadline for submission of the video of the play will be 28th March 2021, 11:59pm.</li><li>
 Result of the judgement will be made available by Revival Closure.</li>
 </ul>
 
@@ -323,9 +327,9 @@ Result of the judgement will be made available by Revival Closure.</li>
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
-<li>Subham Mishra- 9178505655, subham.mishra@niser.ac.in, @_mr.mishra_ </li><li>
-Nikhil Kumar- 9470431483,<br><br>  nikhilkumar18@niser.ac.in @el_professor_ </li><li>
-Tanya Pattnaik- 8118031373,<br><br> tanya.pattnaik@niser.ac.in @her_nerdiness </li>
+<li>Subham Mishra- 9178505655, subham.mishra@niser.ac.in, <a href="https://www.instagram.com/_mr.mishra_/" style="color:blue;">@_mr.mishra_</a> </li><li>
+Nikhil Kumar- 9470431483,  nikhilkumar18@niser.ac.in <a href="https://www.instagram.com/el_professor_/" style="color:blue;">@el_professor_</a> </li><li>
+Tanya Pattnaik- 8118031373, tanya.pattnaik@niser.ac.in <a href="https://www.instagram.com/her_nerdiness/" style="color:blue;">@her_nerdiness </a></li>
 </ul>
 
   `;
@@ -357,9 +361,11 @@ Trashion presents a unique opportunity to creatively unleash your inner fashioni
   `;
 
   prizes.innerHTML=`
-      Winner - Rs 1500
-<br><br>1st Runner up - Rs 1000
-<br><br>2nd Runner up - Rs 500
+<ul style="list-style-type:disc;">
+<li>      Winner - Rs 1500 </li><li>
+1st Runner up - Rs 1000</li><li>
+2nd Runner up - Rs 500</li>
+</ul>
   `;
 
   judging_criteria.innerHTML=`Theme Selection, Use of materials, originality, presentation, Grooming, Confidence, Attention details with accessories and costume, Overall Impact
