@@ -945,8 +945,7 @@ Entries may be uploaded on social media by the Revival Core Committee, strictly 
 Registration cum submission ends on 27/03/2021.</li>
 </ul>
 All participants are required to fill the form within the deadline. all further communications will be done through the mail/contact provided in the form.
-<br><br>The link for submissions will be put on the Revival website &  .
-<br><br>The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (instagram).
+
 
   `;
 
