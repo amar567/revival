@@ -390,7 +390,7 @@ Overall Impact</li>
   `;
 
   elegibility.innerHTML=`
-Only students of IISERs, NISER, CEBS and IISc are allowed to participate.
+Only students of IISERs, NISER, CEBS and IISc are allowed to participate. Alumni are not allowed to participate.
  `;
 
   guidelines.innerHTML=`
@@ -469,7 +469,7 @@ function lazarus(){
   about.innerHTML=`
   <a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">The Music Club of IISER Kolkata</a> presents LAZARUS, an online music competition, unlike any other, in the history of time.
   <br><br>
-  To put it straight, 𝗼𝗻𝗲 𝗵𝗮𝘀 𝘁𝗼 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁 𝗮 𝗳𝗲𝘄 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮𝗿𝘁 𝗳𝗼𝗿𝗺𝘀 (𝗽𝗮𝗶𝗻𝘁𝗶𝗻𝗴𝘀/𝗴𝗿𝗮𝗵𝗶𝗰𝘀/𝗽𝗵𝗼𝘁𝗼𝗴𝗿𝗮𝗽𝗵𝘀) 𝗮𝗻𝗱 𝗲𝘅𝗽𝗿𝗲𝘀𝘀 𝘁𝗵𝗲𝗶𝗿 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗺𝘂𝘀𝗶𝗰𝗮𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲𝘀 𝗼𝗳 𝘁𝗵𝗲𝗶𝗿 𝗼𝘄𝗻.
+  To put it straight, 𝗼𝗻𝗲 𝗵𝗮𝘀 𝘁𝗼 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁 𝗮 𝗳𝗲𝘄 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮𝗿𝘁 𝗳𝗼𝗿𝗺𝘀 (𝗽𝗮𝗶𝗻𝘁𝗶𝗻𝗴𝘀/𝗴𝗿𝗮p𝗵𝗶𝗰𝘀/𝗽𝗵𝗼𝘁𝗼𝗴𝗿𝗮𝗽𝗵𝘀) 𝗮𝗻𝗱 𝗲𝘅𝗽𝗿𝗲𝘀𝘀 𝘁𝗵𝗲𝗶𝗿 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗺𝘂𝘀𝗶𝗰𝗮𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲𝘀 𝗼𝗳 𝘁𝗵𝗲𝗶𝗿 𝗼𝘄𝗻.
   <br><br>
   So grab your guitars and sitars and be ready for a musical adventure of a lifetime.
     `;
@@ -524,7 +524,7 @@ function lazarus(){
 <ol>
 <li>  The Event has two categories,​ vocal and instrumental​.</li><li>
   The event will be conducted in 3 rounds.</li><li>
-  Participants should follow the timeline properly. Registration through the google form is a must. The submission-google forms will be sent to registered participants.</li><li>
+  Participants should follow the timeline properly. Registration through the google form is a must. The submission-portals for all the rounds will be updated in the website.</li><li>
   A participant can either participate in the vocal OR instrumental category.</li><li>
   The video entry should be a ​maximum of 7 minutes​ in length.</li><li>
   There are no genre restrictions.</li><li>
@@ -861,7 +861,7 @@ Entries may be uploaded on social media by the Revival Core Committee, strictly 
 <ul style="list-style-type:disc;">
 <li>March 8th: Google form Registrations open. </li><li>
 March 25th: Google form registrations close </li><li>
-April 2nd: Result Declaration.</li>
+April 4th: Result Declaration.</li>
 </ul>
   `;
 
@@ -925,7 +925,7 @@ The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (i
   elegibility.innerHTML=`
 <ul style="list-style-type:disc;">
 <li>The participating individual should be a currently enrolled student of the participating institutes. </li><li>
-This is a solo event and will operate on basis of submissions. </li>
+This is a solo event and will operate on the basis of submissions. </li>
 </ul>
 
   `;
@@ -991,8 +991,11 @@ function mela_quiz(){
   subname.innerHTML=`Online quiz based on music, entertainment, literature and arts.`;
 
   about.innerHTML=`
-Do you know a lot about the latest trendy songs, stay updated about the newest Bollywood movies and the best books? Well, IISER Thiruvananthapuram is here with the perfect opportunity to put this trivia knowledge to good use - the MELA Quiz! The quiz will be focused on music, entertainment, literature and arts. An amazing platform to showcase your fine arts knowledge!
-Getting down to the nitty-gritty, the competition will take place  in two sessions (a prelim and the final),  through Discord. Teams of two can participate. Stay tuned for further updates!
+Do you ever feel that your brain save way more pop-culture information as opposed to things in your actual curriculum?
+Well then, hold on to your knowledge about the latest movies, the best of the books, and the chart topping songs and the news buzz for the brand new MELA QUIZ!,
+conducted by IISER TVM.<br><br>
+Become the trivia queens (and kings, of course) by sailing through the prelims and the finals.
+
 
     `;
 
