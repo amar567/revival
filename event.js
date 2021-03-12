@@ -697,6 +697,18 @@ The participants will essentially be asked to recite poems of their own composit
 `;
 
   guidelines.innerHTML=`
+For Prelims:
+<ol>
+<li> Each poem must be of the poet’s own creation.</li><li>
+
+There is NO restriction on language used in the poem. Any language, even multiple languages, may be used. However, each poet must provide translations for every non-English word used in the poem. If the entire poem is in a language other than
+English, then a full translation (effective translation, not a word-by-word translation necessarily) must be provided.</li><li>
+ The poem may NOT include sexist, racist, homophobic, or transphobic comments. However, anger, upset and frustration are totally legit emotions to express in your poem, just be creative in how you go about doing it.</li><li>
+ The poet receives scores out of 10 from each judge.</li><li>
+ Registration forms will be sent out and the participants must register before the event. NO unregistered participation request will be entertained on the day of the event itself.</li>
+</ol>
+
+For Finals:
   <ol>
   <li> Each poem must be of the poet’s own creation.</li><li>
  Memorization is not required or necessary. The poet may choose to read off a sheet of paper or notebook or read off of their phone(s).
@@ -723,11 +735,34 @@ English, then a full translation (effective translation, not a word-by-word tran
 
   timeline.innerHTML =`
 Prelims:
+<ul style="list-style-type:disc;">
+<li>Registration cum submission Starts on 14th March 2021</li>
+<li>Registration cum submission ends on 22th March 2021</li>
+</ul>
+Finals:
+<ul style="list-style-type:disc;">
+<li>Finals would be on 4th April 2021 live. Link would be shared soon.
+</li></ul>
 
 
   `;
 
-  sub_details.innerHTML=``;
+  sub_details.innerHTML=`
+
+Prelims (Submission based)– 
+<ul style="list-style-type:disc;">
+<li>Registration cum submission Starts on 14th March 2021</li>
+<li>Registration cum submission ends on 22th March 2021</li>
+</ul>
+
+<br><br>
+Submission link - 
+https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link
+<br><br>
+Finals (Live Event) – 4th April 2021
+<br>
+Meeting link would be shared soon.
+`;
 
   contact.innerHTML=`
   Budhaditya : 8178551569
@@ -831,7 +866,8 @@ April 2nd: Result Declaration.</li>
   `;
 
   sub_details.innerHTML=`
-  
+  Registration Link: https://forms.gle/Xbs6QGNSeUxn9g5RA
+
   `;
 
   contact.innerHTML=`
@@ -853,9 +889,9 @@ function capture_it(){
 
   img.src = `./img/events/capture_it.jpg`;
 
-  $('#regbtn2').attr('href','');
+  $('#regbtn2').attr('href','https://forms.gle/L7NqnjijvE77evNM7');
 
-  $('#regbtn').attr('href','');
+  $('#regbtn').attr('href','https://forms.gle/L7NqnjijvE77evNM7');
 
   event_name.innerHTML=`CAPTURE IT!`;
 
@@ -878,11 +914,7 @@ The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (i
   `;
 
   judging_criteria.innerHTML=`
-  <!-- All the entries received on 14/03/2021 will be posted on our Instagram page (@lumiere.iiserm) on 15/03/2021. This process will continue till last date (last date of submission 27/03/2021). <br><br>
-Points will be calculated for each post according to this rule :- 1 point for 1 “like” & 2 points for 1 “comment”. <br><br>
-Only 1 comment will be counted from 1 person (please do not spam). <br><br>
- Points will be calculated 24 hours after the post is published. <br><br>
-Winners will be declared on the basis of highest points (calculated after 24 hours respectively). -->
+   Will be updated shortly by the Revival Secretaries’ Committee.
   `;
 
   elegibility.innerHTML=`
@@ -903,27 +935,31 @@ You are supposed to provide us a Google drive link to your photo from where we c
 Due to Google’s policies, you will need to provide access when requested. (Just sharing the link is not enough.) </li>
 </ol>
 
+Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
 
   `;
 
   timeline.innerHTML =`
-
-<br><br>  We shall provide the necessary link for submission for the event by 13/03/2021.
-<br><br>The registration opens on 14/03/2021, kindly fill the form by 27/03/2021. All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
-<br><br>The link for submissions will be put on the Revival website & Lumière Instagram page (@lumiere.iiserm) .
+<ul style="list-style-type:disc;">
+<li>Registration opens on 14/03/2021</li><li>
+Registration cum submission ends on 27/03/2021.</li>
+</ul>
+All participants are required to fill the form within the deadline. all further communications will be done through the mail/contact provided in the form.
+<br><br>The link for submissions will be put on the Revival website &  .
 <br><br>The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (instagram).
 
   `;
 
-  sub_details.innerHTML=`We shall provide the necessary link for submission for the event by 13/03/2021. <br><br>
-The registration opens on 14/03/2021, kindly fill the form by 27/03/2021. All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.<br><br>
+  sub_details.innerHTML=`
+The registration opens on 14/03/2021, kindly fill the form by 27/03/2021.
+All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.<br><br>
 `;
 
   contact.innerHTML=`Contact us :- Shounak Hinge, convener, Lumière <br><br>
 9145496175 <br><br>
 29shounak.hinge@gmail.com <br><br>
 @shounak_hinge
-
+<a href="https://www.instagram.com/lumiere.iiserm/" style="color:blue;">Lumière Instagram page</a>
 
   `;
 
