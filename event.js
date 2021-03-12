@@ -491,47 +491,50 @@ function lazarus(){
          I) Overall Theme Correspondence and Overall Presentation
 
 <br><br> II) Vocal will be judged based on:
-        <ul>
-          1. Pitching Quality
-        <br><br> 2. Pronunciation
-        <br><br> 3. Overall presentation.
-        </ul>
+        <ol>
+          <li> Pitching Quality</li><li>
+         Pronunciation</li><li>
+         Overall presentation.</li>
+        </ol>
 
 <br><br> III) Instrumental will be judged by:
-      <ul>
-      1. Backing track (only if played by the participant)
-      <br><br> 2. Rhythm and tempo
-      <br><br> 3. Groove
-      <br><br> 4. Melody line.
-      <br><br> 5. Harmony line.
-      <br><br> 6. Skill and technique.
-      <br><br> 7. Overall presentation
+      <ol>
+      <li> Backing track (only if played by the participant) </li><li>
+       Rhythm and tempo</li><li>
+       Groove</li><li>
+       Melody line.</li><li>
+       Harmony line.</li><li>
+       Skill and technique.</li><li>
+       Overall presentation</li>
       </ul>
 
   `;
 
   elegibility.innerHTML=`
-  ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
-  <br><br>
+<ul>
+<li>ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
+  </li><li>
 
   This is a solo online event. Only ​one entry per participant​ is allowed.
-  <br><br>
+  </li>
+</ul>
   `;
 
   guidelines.innerHTML=`
-
-  The Event has two categories,​ vocal and instrumental​.<br><br>
-  The event will be conducted in 3 rounds.<br><br>
-  Participants should follow the timeline properly. Registration through the google form is a must. The submission-google forms will be sent to registered participants.<br><br>
-  A participant can either participate in the vocal OR instrumental category.<br><br>
-  The video entry should be a ​maximum of 7 minutes​ in length.<br><br>
-  There are no genre restrictions.<br><br>
-  Your entry should be your musical interpretation of the thematic image provided to you. Write a maximum of 4 lines in the google form how your music is related to the image.<br><br>
-  At the beginning of your video entry, all participants should display your name, institution, and name of your song/songs for the first 5 seconds.<br><br>
-  Name your video entries in the format, Name_Institute (Eg: Arikta_IISERK).<br><br>
-  The participant’s face and visuals of them performing should be visible throughout the video.<br><br>
-  Please note that No EDM Entries are Allowed.<br><br>
-  Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.<br><br>
+<ol>
+<li>  The Event has two categories,​ vocal and instrumental​.</li><li>
+  The event will be conducted in 3 rounds.</li><li>
+  Participants should follow the timeline properly. Registration through the google form is a must. The submission-google forms will be sent to registered participants.</li><li>
+  A participant can either participate in the vocal OR instrumental category.</li><li>
+  The video entry should be a ​maximum of 7 minutes​ in length.</li><li>
+  There are no genre restrictions.</li><li>
+  Your entry should be your musical interpretation of the thematic image provided to you. Write a maximum of 4 lines in the google form how your music is related to the image.</li><li>
+  At the beginning of your video entry, all participants should display your name, institution, and name of your song/songs for the first 5 seconds.</li><li>
+  Name your video entries in the format, Name_Institute (Eg: Arikta_IISERK).</li><li>
+  The participant’s face and visuals of them performing should be visible throughout the video.</li><li>
+  Please note that No EDM Entries are Allowed.</li><li>
+  Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.</li>
+</ol>
   All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
   `;
 
