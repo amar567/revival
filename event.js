@@ -49,7 +49,10 @@ function picomix(){
   Are your creative senses tingling?
   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
+event_details.innerHTML =`
 
+
+  `;
   prizes.innerHTML=`
     Prizes in each category &minus;<br>
  Winner awarded with ₹1000, <br>
@@ -176,16 +179,20 @@ The submission with the best combined score for the short story and the cover ar
   `;
 
   judging_criteria.innerHTML=`
-  1.The literary judges will be provided with the full story, the relevant description and the cover image as well, and the literary aspect will be judged on the basis of a number point scale with different metrics (viz. creativity, grammar, structure) out of 10.<br><br>
-  2.The art judges will also be provided with the artwork, the description/relevance of the artwork, and the full story for reference. They will judge only the art aspect, and how well it relates to the description, on a number metric, out of 10.<br><br>
-  3.The short description of the cover art will not be judged on the basis of grammar or any literary metric, only the relevance with the story will be taken into consideration.<br><br>
-  4.Detailed judging criterion will be mailed to the registered participants.
+<ol>
+<li>The literary judges will be provided with the full story, the relevant description and the cover image as well, and the literary aspect will be judged on the basis of a number point scale with different metrics (viz. creativity, grammar, structure) out of 10.</li><li>
+  The art judges will also be provided with the artwork, the description/relevance of the artwork, and the full story for reference. They will judge only the art aspect, and how well it relates to the description, on a number metric, out of 10.</li><li>
+  The short description of the cover art will not be judged on the basis of grammar or any literary metric, only the relevance with the story will be taken into consideration.</li><li>
+  Detailed judging criterion will be mailed to the registered participants.</li>
+</ol>
 
   `;
 
   elegibility.innerHTML=`
-  1.The participating group should be a currently enrolled student of any of the participating institutes (All IISERs, NISER, IISc, CEBS). Alumnus not allowed to participate.<br><br>
-2.This is a group event of 2-4 students and will operate on the basis of submissions.
+<ol>
+<li>The participating group should be a currently enrolled student of any of the participating institutes (All IISERs, NISER, IISc, CEBS). Alumnus not allowed to participate.</li><li>
+This is a group event of 2-4 students and will operate on the basis of submissions.</li>
+</ol>
   `;
 
   guidelines.innerHTML=`
