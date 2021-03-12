@@ -80,10 +80,10 @@ event. Alumnus not allowed to participate.</li>
 
   guidelines.innerHTML=`
 The event consists of two parts:
-<ul>
-<li>A: Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
-<li>B: Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
-</ul>
+<ol type="A:">
+<li> Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
+<li> Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
+</ol>
 <ol>
 <li>Only digital submissions are accepted, i.e. the participant cannot take a printout of their
 picture and draw over it.</li><li>
@@ -261,20 +261,18 @@ function manthan(){
 
   event_name.innerHTML=`MANTHAN`;
 
-  subname.innerHTML=`Online drama event`;
+  subname.innerHTML=`Online Drama Event`;
 
   about.innerHTML=`
-    NISER presents Manthan, a drama event that, not unlike its name, will amalgamate seemingly unrelated characters from the world of literature and cinema. A refreshing change from the usual drama events, we invite acts where the personalities of these random characters must be preserved. Thereby, the end result should be a unique production of a fun and coherent plot.<br><br>
+    NISER presents Manthan, a drama event that, not unlike its name, will amalgamate seemingly unrelated characters 
+from the world of literature and cinema. A refreshing change from the usual drama events, we invite acts where the 
+personalities of these random characters must be preserved. Thereby, the end result should be a unique production of a fun and coherent plot.<br><br>
 
     So come on, bring your ‘A’ game to us! Put on your thinking caps, and wait for us to unleash the characters on you!.
 
     `;
 
-  event_details.innerHTML =`This is a group event and will operate on basis of video submissions.<br><br>
-    Each group would be given 4 random characters and they need to evolve a plot to present all four characters in a single play.<br><br>
-    A team can choose extra two characters of their choice to assist their plot. So a maximum of 6 students can participate.<br><br>
-
-
+  event_details.innerHTML =`
   `;
 
   prizes.innerHTML=`1st Prize: 3000 INR <br><br>
@@ -294,19 +292,22 @@ Runner’s Up: 1500 INR
   `;
 
   guidelines.innerHTML=`
-
-      The participating group should be currently enrolled students of the participating  institutes-IISERS, NISER, IISc and CEBS. Alumnus not allowed to participate.
-<br>All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
-<br>Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.
-<br>The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play.
-<br>The play can be in any language but English subtitles are mandatory.
-<br>The script should be uploaded with a video file in English language only.
-<br>Please avoid abusive or derogatory speech.
+<ol>
+<li>This is a group event and will operate on basis of video submissions.</li><li>
+    Each group would be given 4 random characters and they need to evolve a plot to present all four characters in a single play.</li><li>
+    A team can choose extra two characters of their choice to assist their plot. So a maximum of 6 students can participate.</li>
+All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.</li><li>
+Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.</li><li>
+The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play.</li><li>
+The play can be in any language but English subtitles are mandatory.</li><li>
+The script should be uploaded with a video file in English language only.</li><li>
+Please avoid abusive or derogatory speech.</li>
+</ol>
   `;
 
   timeline.innerHTML =`
-The registration opens on 7th march 2021. <br><br>
-The registration form will be circulated and should be filled latest by 13th March 2021, 11:59pm. <br><br>
+Registration opens on 7th march 2021. <br><br>
+Registration form will be circulated and should be filled latest by 13th March 2021, 11:59pm. <br><br>
 Deadline for submission of the video of the play will be 24th March 2021, 11:59pm. <br><br>
 The result of the judgement will be made available by 1st April tentatively.
 
