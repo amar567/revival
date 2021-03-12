@@ -951,7 +951,7 @@ All participants are required to fill the form within the deadline. all further 
 
   sub_details.innerHTML=`
 The registration opens on 14/03/2021, kindly fill the form by 27/03/2021.
-All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.<br><br>
+All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
 `;
 
   contact.innerHTML=`
