@@ -757,7 +757,7 @@ Prelims (Submission based)–
 
 <br><br>
 Submission link - 
-https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link" style="color:blue;">Click to Submit</a>
 <br><br>
 Finals (Live Event) – 4th April 2021
 <br>
@@ -866,7 +866,7 @@ April 4th: Result Declaration.</li>
   `;
 
   sub_details.innerHTML=`
-  Registration Link: https://forms.gle/Xbs6QGNSeUxn9g5RA
+  Registration Link: <a href="https://forms.gle/Xbs6QGNSeUxn9g5RA" style="color:blue;">https://forms.gle/Xbs6QGNSeUxn9g5RA</a>
 
   `;
 
@@ -1042,20 +1042,16 @@ Any form of malpractice is discouraged. If any of the teams are found carrying o
 <li>Registration ends on 02nd April</li>
 <li>Quiz happens on 03rd April</li>
 </ul>
-
-
   `;
 
   sub_details.innerHTML=`NA`;
 
   contact.innerHTML=`
-
 <ul>
 <li>Tony Nixon Mavely - 8281517015 </li><li>
  tonynixonmavely17@iisertvm.ac.in </li><li>
 culturalclub@iisertvm.ac.in</li>
 </ul>
-
   `;
 
   //show the popup
