@@ -209,8 +209,9 @@ This is a group event of 2-4 students and will operate on the basis of submissio
 Registration will be open from 9th to 13th March 2021.<br>
 After 13th, the registration time will be closed and
 only those teams who had registered would be considered for judging.</li><li>
-  4.All further communications with the participants will be done through the mail/contact provided in the registration form.<br><br>
-  5.Any entries which are found to be plagiarised will be instantly disqualified.
+ All further communications with the participants will be done through the mail/contact provided in the registration form.</li><li>
+ Any entries which are found to be plagiarised will be instantly disqualified.</li>
+</ol>
 
 
   `;
@@ -239,9 +240,11 @@ Entries may be uploaded on social media by the Revival Core Committee, strictly 
   `;
 
   contact.innerHTML=`
-  Arnab Lahiry (8697949062) <a href="https://www.instagram.com/spy.d_42/" style="color:blue;">@spy.d_42</a> (arnab@students.iisertirupati.ac.in) <br><br> 
-  Chaitanya Chawak (9405907765) (chaitanyachawak@students.iisertirupati.ac.in)<br><br>
-  Sushmita Halder (8929798359) (sushmitahalder@students.iisertirupati.ac.in) <br><br>
+<ul style="list-style-type:disc;">
+<li>  Arnab Lahiry (8697949062) <a href="https://www.instagram.com/spy.d_42/" style="color:blue;">@spy.d_42</a> (arnab@students.iisertirupati.ac.in) </li><li> 
+  Chaitanya Chawak (9405907765) (chaitanyachawak@students.iisertirupati.ac.in)</li><li>
+  Sushmita Halder (8929798359) (sushmitahalder@students.iisertirupati.ac.in) </li>
+</ul>
   `;
 
   //show the popup
@@ -306,20 +309,24 @@ Please avoid abusive or derogatory speech.</li>
   `;
 
   timeline.innerHTML =`
-Registration opens on 7th march 2021. <br><br>
-Registration form will be circulated and should be filled latest by 13th March 2021, 11:59pm. <br><br>
-Deadline for submission of the video of the play will be 24th March 2021, 11:59pm. <br><br>
-The result of the judgement will be made available by 1st April tentatively.
+<ul style="list-style-type:disc;">
+<li>Registration opens on 7th march 2021.</li><li>
+Registration form will be circulated and should be filled latest by 13th March 2021, 11:59pm.</li><li>
+Deadline for submission of the video of the play will be 24th March 2021, 11:59pm.</li><li>
+Result of the judgement will be made available by Revival Closure.</li>
+</ul>
 
 
   `;
 
   sub_details.innerHTML=``;
 
-  contact.innerHTML=`Contact information: <br><br>
-Subham Mishra- 9178505655,<br><br>  subham.mishra@niser.ac.in @_mr.mishra_ <br><br>
-Nikhil Kumar- 9470431483,<br><br>  nikhilkumar18@niser.ac.in @el_professor_ <br><br>
-Tanya Pattnaik- 8118031373,<br><br> tanya.pattnaik@niser.ac.in @her_nerdiness
+  contact.innerHTML=`
+<ul style="list-style-type:disc;">
+<li>Subham Mishra- 9178505655, subham.mishra@niser.ac.in, @_mr.mishra_ </li><li>
+Nikhil Kumar- 9470431483,<br><br>  nikhilkumar18@niser.ac.in @el_professor_ </li><li>
+Tanya Pattnaik- 8118031373,<br><br> tanya.pattnaik@niser.ac.in @her_nerdiness </li>
+</ul>
 
   `;
 
