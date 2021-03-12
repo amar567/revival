@@ -80,7 +80,7 @@ event. Alumnus not allowed to participate.</li>
 
   guidelines.innerHTML=`
 The event consists of two parts:
-<ol type="A:">
+<ol type="A">
 <li> Make a 4&minus;panel comic using pictures you clicked, by adding drawings/text on top with a digital drawing/editing software</li>
 <li> Transform 1 image that you’ve clicked by adding drawings/text on top with a digital drawing/editing software</li>
 </ol>
@@ -487,6 +487,7 @@ function lazarus(){
   `;
 
   judging_criteria.innerHTML=`
+
          I) Overall Theme Correspondence and Overall Presentation
 
 <br><br> II) Vocal will be judged based on:
