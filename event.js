@@ -311,6 +311,13 @@ The play can be in any language but English subtitles are mandatory.</li><li>
 The script should be uploaded with a video file in English language only.</li><li>
 Please avoid abusive or derogatory speech.</li>
 </ol>
+
+The participants are expected to send us a video file of their act via specified mode (to be communicated) latest by 28th March 2021, 11:59pm. The file should have your group's name.<br><br>
+
+Please do not mention the names of the participants in the video itself for fair judgment.<br><br>
+
+Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
+
   `;
 
   timeline.innerHTML =`
@@ -378,7 +385,8 @@ presentation</li><li>
 Grooming</li><li>
 Confidence</li><li>
 Attention details with accessories and costume</li><li>
-Overall Impact</li><li>
+Overall Impact</li>
+</ul>
   `;
 
   elegibility.innerHTML=`
@@ -389,6 +397,8 @@ Only students of IISERs, NISER, CEBS and IISc are allowed to participate.
 <ol>
 <li>This is a Solo event.</li><li>
 Make apparel (clothing or outfit worn in a function) out of the materials which are normally thrown out as waste.</li><li>
+Participants have to make a video of a small Ramp walk followed by your introduction and explaining your outfit in short</li><li>
+Rename your videos/photos as "name@trashion" before uploading</li><li>
 Every entry must have a theme. The theme can be decided by the participant itself.</li><li>
 Wear the dress/apparel yourself and record a video of around 30 seconds each which clearly shows the dress from all the directions (Front view, back view, right view, left view, etc)</li><li>
 Submit 4 photographs one from each - front, back, right and left views.</li><li>
@@ -400,22 +410,31 @@ Newspapers, magazines, paper bags, fabric strips, jute bags, gift wraps, etc are
 Only the shape/size of the waste materials is allowed to change. Modifying any other physical attribute is not allowed (Example - Painting newspapers is not allowed. You are only allowed to change the shape/size of a newspaper).</li><li>
 Only waste materials are to be used. You can’t use newly bought fresh materials.</li><li>
 Ready-made costumes are not allowed, but there is no restriction on improvising.</li><li>
-No form of obscenity will be encouraged and it can lead to immediate disqualification.</li><li>
+No form of obscenity will be encouraged and it can lead to immediate disqualification.</li>
 </ol>
+
+All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.<br>
+By participating, you give consent to the Revival Core Committee for such use.<br>
+In case of any issue, do contact your respective institute’s Revival Secretary.
+
+
 `;
 
   timeline.innerHTML =`
-
-  Registration and Submission Begins: 8th March<br><br>
-  Last day of Submission: 27th March, 11:59 PM
+<ul style="list-style-type:disc;">
+<li>  Registration and Submission Begins: 8th March</li><li>
+  Last day of Submission: 27th March, 11:59 PM</li>
+</ul>
   `;
 
   sub_details.innerHTML=``;
 
   contact.innerHTML=`
-Harshit Pal - 9974857459 <br><br>
-<a href="https://www.instagram.com/i_m_hazlitt/">@i_m_hazlitt</a><br><br>
-<a href="https://www.instagram.com/celebrations.at.iiserbpr/">@celebrations.at.iiserbpr</a>
+<ul style="list-style-type:disc;">
+<li>Harshit Pal - 9974857459 
+<a href="https://www.instagram.com/i_m_hazlitt/" style="color:blue;">@i_m_hazlitt</a></li><li>
+<a href="https://www.instagram.com/celebrations.at.iiserbpr/" style="color:blue;">@celebrations.at.iiserbpr</a></li>
+<ul>
   `;
 
   //show the popup
@@ -456,15 +475,15 @@ function lazarus(){
     `;
 
   event_details.innerHTML =`
-  This is a ​solo online event.<br><br>
-  It has two categories,​ vocal and instrumental​.<br><br>
-  The event will be conducted in 3 rounds.<br><br>
+  
   `;
 
   prizes.innerHTML=`
-  Winner in each category :₹1000​,<br><br>
-  Runner up in each category: ​₹500 <br><br>
-  A ​special mention(s)<br><br>
+<ul style="list-style-type:disc;">
+<li>  Winner in each category :₹1000​,</li><li>
+  Runner up in each category: ​₹500 <br>
+  A ​special mention(s)</li>
+</ul>
   `;
 
   judging_criteria.innerHTML=`
@@ -499,6 +518,9 @@ function lazarus(){
   `;
 
   guidelines.innerHTML=`
+
+  The Event has two categories,​ vocal and instrumental​.<br><br>
+  The event will be conducted in 3 rounds.<br><br>
   Participants should follow the timeline properly. Registration through the google form is a must. The submission-google forms will be sent to registered participants.<br><br>
   A participant can either participate in the vocal OR instrumental category.<br><br>
   The video entry should be a ​maximum of 7 minutes​ in length.<br><br>
