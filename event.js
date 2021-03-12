@@ -951,7 +951,7 @@ All participants are required to fill the form within the deadline. all further 
 
   sub_details.innerHTML=`
 The registration opens on 14/03/2021, kindly fill the form by 27/03/2021.
-All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
+
 `;
 
   contact.innerHTML=`
@@ -996,45 +996,57 @@ Getting down to the nitty-gritty, the competition will take place  in two sessio
   `;
 
   prizes.innerHTML=`
+IISER TVM Quiz Club will update soon.
   `;
 
   judging_criteria.innerHTML=`
-
+NA
   `;
 
   elegibility.innerHTML=`
-
+<ul style="list-style-type:disc;">
+<li>The participating individual should be a currently enrolled student of the participating institutes. </li>
+</ul>
   `;
 
   guidelines.innerHTML=`
- A team shall consist of a maximum of 2 members. Lone wolves are welcome. (Participants need not to be from the same institute)
+<ul>
+<li> A team shall consist of a maximum of 2 members. Lone wolves are welcome. (Participants need not to be from the same institute)</li><li>
 
-There is no restriction on the number of teams from an institute
+There is no restriction on the number of teams from an institute</li><li>
 
-Participants are encouraged to pre-register. However, spot registrations may be permitted as per the situation.
+Participants are encouraged to pre-register. However, spot registrations may be permitted as per the situation.</li><li>
 
-The quiz will happen in two rounds, prelims and finals.
+The quiz will happen in two rounds, prelims and finals.</li><li>
 
-All decisions made by the Quizmaster, including those regarding tie-breaks, will be final.
+All decisions made by the Quizmaster, including those regarding tie-breaks, will be final.</li><li>
 
-Further instructions will be given on the day of the quiz.
+Further instructions will be given on the day of the quiz.</li><li>
 
-Any form of malpractice is discouraged. If any of the teams are found carrying out such behavior, they will be disqualified.
+Any form of malpractice is discouraged. If any of the teams are found carrying out such behavior, they will be disqualified.</li>
+</ul>
 
   `;
 
   timeline.innerHTML =`
+<ul>
+<li>Registration starts on 26th March</li>
+<li>Registration ends on 02nd April</li>
+<li>Quiz happens on 03rd April</li>
+</ul>
+
 
   `;
 
-  sub_details.innerHTML=``;
+  sub_details.innerHTML=`NA`;
 
   contact.innerHTML=`
-Contact information: <br><br>
 
-Tony Nixon Mavely - 8281517015 <br><br>
- tonynixonmavely17@iisertvm.ac.in <br><br>
-culturalclub@iisertvm.ac.in
+<ul>
+<li>Tony Nixon Mavely - 8281517015 </li><li>
+ tonynixonmavely17@iisertvm.ac.in </li><li>
+culturalclub@iisertvm.ac.in</li>
+</ul>
 
   `;
 
