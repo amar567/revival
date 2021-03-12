@@ -898,7 +898,12 @@ function capture_it(){
   subname.innerHTML=`An Online Photography competition`;
 
   about.innerHTML=`
-An online photography competition without any thematic restrictions is the perfect platform to express yourself with your pictures, woven together to tell your story. While life may have come to a standstill this year, we still have memories encased in our camera reels. So get ready to share your best clicks in this enthralling competition!
+
+An online photography competition without any thematic restrictions is the perfect platform to express yourself with your pictures.
+While life may have come to a standstill this year, we still have memories encased in our camera reels. 
+So get ready to share your best clicks in this enthralling competition!
+
+
 
     `;
 
