@@ -571,7 +571,7 @@ function lazarus(){
   Soumi Bhattacharyya - 6291141950 <a href="https://www.instagram.com/soumi_hiya/" style="color:blue;">@soumi_hiya</a></li><li>
   Sroyon Sengupta -  9748960044 <a href="https://www.instagram.com/auditore_de_ssg/" style="color:blue;">@auditore_de_ssg</a></li><li>
   Shubhamay - 8918115319 <a href="https://www.instagram.com/shubhmay8380/" style="color:blue;">@shubhmay8380</a></li><li>
-  music.activity@iiserkol.ac.in</li><li>
+  music.activity@iiserkol.ac.in</li>
 </ul>
   `;
 
@@ -726,7 +726,7 @@ English, then a full translation (effective translation, not a word-by-word tran
 
   contact.innerHTML=`
   Budhaditya : 8178551569
-<br><br>
+<br>
   budhaditya@iisc.ac.in
   `;
 
@@ -939,10 +939,23 @@ Getting down to the nitty-gritty, the competition will take place  in two sessio
   `;
 
   elegibility.innerHTML=`
-Team size: 2
+
   `;
 
   guidelines.innerHTML=`
+ A team shall consist of a maximum of 2 members. Lone wolves are welcome. (Participants need not to be from the same institute)
+
+There is no restriction on the number of teams from an institute
+
+Participants are encouraged to pre-register. However, spot registrations may be permitted as per the situation.
+
+The quiz will happen in two rounds, prelims and finals.
+
+All decisions made by the Quizmaster, including those regarding tie-breaks, will be final.
+
+Further instructions will be given on the day of the quiz.
+
+Any form of malpractice is discouraged. If any of the teams are found carrying out such behavior, they will be disqualified.
 
   `;
 
