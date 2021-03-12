@@ -43,7 +43,7 @@ function picomix(){
 
   event_name.innerHTML=`PICOMIX`;
 
-  subname.innerHTML=`Online photography and drawing comics event`;
+  subname.innerHTML=`Online Photography and Drawing Comics Event`;
 
   about.innerHTML=`
   Are your creative senses tingling?
@@ -278,8 +278,11 @@ personalities of these random characters must be preserved. Thereby, the end res
   event_details.innerHTML =`
   `;
 
-  prizes.innerHTML=`1st Prize: 3000 INR <br><br>
-Runner’s Up: 1500 INR
+  prizes.innerHTML=`
+<ul style="list-style-type:disc;">
+<li>1st Prize: 3000 INR </li><li>
+Runner’s Up: 1500 INR</li>
+</ul>
 
   `;
 
@@ -289,12 +292,10 @@ Runner’s Up: 1500 INR
 There will be negative marking if the upper cap of the video limit is exceeded.</li><li>
 Finer video editing would gain extra points. </li>
 </ul>
-
-
-
   `;
 
-  elegibility.innerHTML=`The participating group should be currently enrolled students of the participating institutes-IISERS, NISER, IISc and CEBS. Alumnus not allowed to participate.
+  elegibility.innerHTML=`
+The participating group should be currently enrolled students of the participating institutes-IISERS, NISER, IISc and CEBS. Alumnus not allowed to participate.
 
   `;
 
@@ -304,7 +305,7 @@ Finer video editing would gain extra points. </li>
     Each group would be given 4 random characters and they need to evolve a plot to present all four characters in a single play.</li><li>
     A team can choose extra two characters of their choice to assist their plot. So a maximum of 6 students can participate.</li><li>
 All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.</li><li>
-Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.</li><li>
+
 The video should be maximum of 15 mins in landscape mode. The videos can be shot individually (keeping in mind that people may be at home, not on campus) with one person per frame which should be then compiled into a single video play.</li><li>
 The play can be in any language but English subtitles are mandatory.</li><li>
 The script should be uploaded with a video file in English language only.</li><li>
@@ -323,7 +324,7 @@ Result of the judgement will be made available by Revival Closure.</li>
 
   `;
 
-  sub_details.innerHTML=``;
+  sub_details.innerHTML=`Further instructions, mode of submission and character assignments will be sent out to the participants within 48 hours of their registration.`;
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
@@ -351,7 +352,7 @@ function trashion(){
 
   event_name.innerHTML=`TRASHION`;
 
-  subname.innerHTML=`Online fashion event`;
+  subname.innerHTML=`Online Fashion Event`;
 
   about.innerHTML=`Are you a spendthrift who ponders a lot about the unaffordability of fashion? Are you someone who craves the joy of trying on the most novel clothing during the pandemic? Do you have a creative streak? If yes, then “trashion” is just for you! Be the trend you wish to see!
 Trashion presents a unique opportunity to creatively unleash your inner fashionista, that too on a budget! Design your own apparel with trash and become a fashion influencer yourself!
@@ -368,31 +369,43 @@ Trashion presents a unique opportunity to creatively unleash your inner fashioni
 </ul>
   `;
 
-  judging_criteria.innerHTML=`Theme Selection, Use of materials, originality, presentation, Grooming, Confidence, Attention details with accessories and costume, Overall Impact
+  judging_criteria.innerHTML=`
+<ul style="list-style-type:disc;">
+<li> Theme Selection </li><li> 
+Use of materials</li><li>
+originality</li><li>
+presentation</li><li>
+Grooming</li><li>
+Confidence</li><li>
+Attention details with accessories and costume</li><li>
+Overall Impact</li><li>
   `;
 
   elegibility.innerHTML=`
-This is a Team event. Only students of IISERs, NISER, CEBS and IISc can form teams (within respective institutes) and are allowed to participate.
+Only students of IISERs, NISER, CEBS and IISc are allowed to participate.
  `;
 
   guidelines.innerHTML=`
-        This is a Solo event. Only students of IISERs, NISER, CEBS and IISc are allowed to participate.
-<br><br>Make apparel (clothing or outfit worn in a function) out of the materials which are normally thrown out as waste.
-<br><br>Every entry must have a theme. The theme can be decided by the participant itself.
-<br><br>Wear the dress/apparel yourself and record a video of around 30 seconds each which clearly shows the dress from all the directions (Front view, back view, right view, left view, etc)
-<br><br>Submit 4 photographs one from each - front, back, right and left views.
-<br><br>Backing track/music is allowed in the video file.
-<br><br>Make a list of all the waste materials used in a .pdf format.
-<br><br>Only 1 entry is allowed per participant
-<br><br>Note that the video and photographs should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification
-<br><br>Newspapers, magazines, paper bags, fabric strips, jute bags, gift wraps, etc are some examples of the waste materials which can be used
-<br><br>Only the shape/size of the waste materials is allowed to change. Modifying any other physical attribute is not allowed (Example - Painting newspapers is not allowed. You are only allowed to change the shape/size of a newspaper).
-<br><br>Only waste materials are to be used. You can’t use newly bought fresh materials
-<br><br>Ready-made costumes are not allowed, but there is no restriction on improvising.
-<br><br>No form of obscenity will be encouraged and it can lead to immediate disqualification.
-  `;
+<ol>
+<li>This is a Solo event.</li><li>
+Make apparel (clothing or outfit worn in a function) out of the materials which are normally thrown out as waste.</li><li>
+Every entry must have a theme. The theme can be decided by the participant itself.</li><li>
+Wear the dress/apparel yourself and record a video of around 30 seconds each which clearly shows the dress from all the directions (Front view, back view, right view, left view, etc)</li><li>
+Submit 4 photographs one from each - front, back, right and left views.</li><li>
+Backing track/music is allowed in the video file.</li><li>
+Make a list of all the waste materials used in a .pdf format.</li><li>
+Only 1 entry is allowed per participant</li><li>
+Note that the video and photographs should not be edited in any way. Use of any kind of special effects is STRICTLY prohibited and will lead to direct disqualification.</li><li>
+Newspapers, magazines, paper bags, fabric strips, jute bags, gift wraps, etc are some examples of the waste materials which can be used.</li><li>
+Only the shape/size of the waste materials is allowed to change. Modifying any other physical attribute is not allowed (Example - Painting newspapers is not allowed. You are only allowed to change the shape/size of a newspaper).</li><li>
+Only waste materials are to be used. You can’t use newly bought fresh materials.</li><li>
+Ready-made costumes are not allowed, but there is no restriction on improvising.</li><li>
+No form of obscenity will be encouraged and it can lead to immediate disqualification.</li><li>
+</ol>
+`;
 
   timeline.innerHTML =`
+
   Registration and Submission Begins: 8th March<br><br>
   Last day of Submission: 27th March, 11:59 PM
   `;
