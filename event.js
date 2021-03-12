@@ -487,17 +487,17 @@ function lazarus(){
   `;
 
   judging_criteria.innerHTML=`
+<ol type="I">
+         <li> Overall Theme Correspondence and Overall Presentation</li>
 
-         I) Overall Theme Correspondence and Overall Presentation
-
-<br><br> II) Vocal will be judged based on:
+<li> Vocal will be judged based on:
         <ol>
           <li> Pitching Quality</li><li>
          Pronunciation</li><li>
          Overall presentation.</li>
         </ol>
-
-<br><br> III) Instrumental will be judged by:
+</li>
+<li> Instrumental will be judged by:
       <ol>
       <li> Backing track (only if played by the participant) </li><li>
        Rhythm and tempo</li><li>
@@ -507,7 +507,7 @@ function lazarus(){
        Skill and technique.</li><li>
        Overall presentation</li>
       </ul>
-
+</li></ol>
   `;
 
   elegibility.innerHTML=`
@@ -534,41 +534,45 @@ function lazarus(){
   The participant’s face and visuals of them performing should be visible throughout the video.</li><li>
   Please note that No EDM Entries are Allowed.</li><li>
   Upload in google drive and give access to all so that we can download the video. Paste the drive link in the google form.</li>
-</ol>
+</ol><br>
   All the entries will be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
   `;
 
   timeline.innerHTML =`
-  5th March​ -  Registration opens, google form on this page.<br><br>
+<ul style="list-style-type:disc;">
+ <li> 5th March​ -  Registration opens, google form on this page.</li><li>
   6th March -  <ul>
                  <li>Registration closes.</li>
-                 <li>First​ thematic image release​d. ​Google form for submission in the first round is circulated.</li>
-                </ul>
-  8th March​ - Submission for 1st round closes. <br><br>
+                 <li>First thematic image released. Google form for submission in the first round is circulated.</li>
+                </ul></li><li>
+  8th March​ - Submission for 1st round closes. </li><li>
 
   14th March -​ <ul>
     <li> Announcement of 1st round results​.</li>
     <li>2nd thematic image released.</li>
-    <li>Google form for ​submission in the 2nd round is circulated.</li>
-  </ul><br><br>
-  16th March​ - Submission google form of 2nd Round closes. (Subject to change according to technicalities.)<br><br>
+    <li>Google form for submission in the 2nd round is circulated.</li>
+  </ul></li><li>
+  16th March - Submission google form of 2nd Round closes. (Subject to change according to technicalities.)</li><li>
   1st April - <ul>
     <li>​ Announcement of 2nd round results​.</li>
     <li>3rd thematic image released.</li>
     <li>Final round submission opens.</li>
-  </ul><br><br>
-  3rd April​ - Submission google form of final round closes.<br><br>
-  14th April -​Announcement of winners in the vocal and instrumental category.<br><br>
+  </ul></li><li>
+  3rd April​ - Submission google form of final round closes.</li><li>
+  10th April -​Announcement of winners in the vocal and instrumental category.</li>
+</ul>
   `;
 
   sub_details.innerHTML=`Video entries must be submitted using the google form which will be circulated by mail/on the website. This will be clarified on/after Registration.`;
 
   contact.innerHTML=`
-  Aayush Srivastav - 6266748990 @musicclubofiiserk<br><br>
-  Soumi Bhattacharyya - 6291141950 @soumi_hiya<br><br>
-  Sroyon Sengupta -  9748960044 @auditore_de_ssg<br><br>
-  Shubhamay - 8918115319 @shubhmay8380<br><br>
-  music.activity@iiserkol.ac.in<br><br>
+<ul style="list-style-type:disc;">
+<li>  Aayush Srivastav - 6266748990 <a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">@musicclubofiiserk</a></li><li>
+  Soumi Bhattacharyya - 6291141950 <a href="https://www.instagram.com/soumi_hiya/" style="color:blue;">@soumi_hiya</li><li>
+  Sroyon Sengupta -  9748960044 <a href="https://www.instagram.com/auditore_de_ssg/" style="color:blue;">@auditore_de_ssg</li><li>
+  Shubhamay - 8918115319 <a href="https://www.instagram.com/shubhmay8380/" style="color:blue;">@shubhmay8380</li><li>
+  music.activity@iiserkol.ac.in</li><li>
+</ul>
   `;
 
   //show the popup
