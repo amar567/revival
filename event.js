@@ -955,11 +955,15 @@ The registration opens on 14/03/2021, kindly fill the form by 27/03/2021.
 All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.<br><br>
 `;
 
-  contact.innerHTML=`Contact us :- Shounak Hinge, convener, Lumière <br><br>
-9145496175 <br><br>
-29shounak.hinge@gmail.com <br><br>
-<a href="https://www.instagram.com/shounak_hinge/" style="color:blue;">@shounak_hinge</a><br>
-<a href="https://www.instagram.com/lumiere.iiserm/" style="color:blue;">Lumière Instagram page</a>
+  contact.innerHTML=`
+<ul style="list-style-type:disc;">
+<li>
+Shounak Hinge, convener, <a href="https://www.instagram.com/lumiere.iiserm/" style="color:blue;">Lumière</a> </li>
+<li>9145496175 </li><li>
+29shounak.hinge@gmail.com </li><li>
+<a href="https://www.instagram.com/shounak_hinge/" style="color:blue;">@shounak_hinge</a></li>
+</ul>
+
 
   `;
 
