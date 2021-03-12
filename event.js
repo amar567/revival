@@ -467,7 +467,7 @@ function lazarus(){
   </div>`;
 
   about.innerHTML=`
-  The Music Club of IISER Kolkata<a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">(@musicclubofiiserk)</a> presents LAZARUS, an online music competition, unlike any other, in the history of time.
+  <a href="https://www.instagram.com/musicclubofiiserk/" style="color:blue;">The Music Club of IISER Kolkata</a> presents LAZARUS, an online music competition, unlike any other, in the history of time.
   <br><br>
   To put it straight, 𝗼𝗻𝗲 𝗵𝗮𝘀 𝘁𝗼 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁 𝗮 𝗳𝗲𝘄 𝘃𝗶𝘀𝘂𝗮𝗹 𝗮𝗿𝘁 𝗳𝗼𝗿𝗺𝘀 (𝗽𝗮𝗶𝗻𝘁𝗶𝗻𝗴𝘀/𝗴𝗿𝗮𝗵𝗶𝗰𝘀/𝗽𝗵𝗼𝘁𝗼𝗴𝗿𝗮𝗽𝗵𝘀) 𝗮𝗻𝗱 𝗲𝘅𝗽𝗿𝗲𝘀𝘀 𝘁𝗵𝗲𝗶𝗿 𝗶𝗻𝘁𝗲𝗿𝗽𝗿𝗲𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝗺𝘂𝘀𝗶𝗰𝗮𝗹 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲𝘀 𝗼𝗳 𝘁𝗵𝗲𝗶𝗿 𝗼𝘄𝗻.
   <br><br>
