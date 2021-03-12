@@ -636,7 +636,7 @@ IISER Bhopal’s Organising Team will update soon.
   sub_details.innerHTML=``;
 
   contact.innerHTML=`
-<ul>
+<ul style="list-style-type:disc;">
 <li>
 Sarthak - +91 7077965840  <a href="https://www.instagram.com/sathak.g_art/" style="color:blue;">@sathak.g_art</a> </li><li>
 Harshwardhan - +91 6263163831 </li><li>
@@ -689,8 +689,12 @@ The participants will essentially be asked to recite poems of their own composit
   `;
 
   elegibility.innerHTML=`
-
-  `;
+<ol>
+<li> ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
+</li><li> This is a solo online event. Only ​one entry per participant​ is allowed.
+</li>
+</ol>
+`;
 
   guidelines.innerHTML=`
   <ol>
@@ -718,6 +722,7 @@ English, then a full translation (effective translation, not a word-by-word tran
   `;
 
   timeline.innerHTML =`
+Prelims:
 
 
   `;
@@ -759,6 +764,10 @@ Do you miss tapping your feet to the rhythm of the dance floor? Don’t worry, �
   `;
 
   prizes.innerHTML=`
+<ul style="list-style-type:disc;">
+<li> 1st Prize &minus; Rs. 2000 </li>
+<li> 2nd Prize &minus; Rs. 1000 </li>
+</ul>
   `;
 
   judging_criteria.innerHTML=`
@@ -768,33 +777,29 @@ Judgement will be done on the basis of originality, creativity, music sense, dif
 
   `;
 
-  elegibility.innerHTML=` Only current Students from participating intitutes are allowed.
+  elegibility.innerHTML=` 
+<ol>
+<li>  ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
+</li><li> This is a Solo Event.</li>
+</ol>
 
   `;
 
   guidelines.innerHTML=`There is no restriction on the dance style, theme, music and costume, it can be chosen according to the participants own freedom. <br><br>
-Only one entry per person will be accepted. <br><br>
-Record your video in a still frame, camera shouldn’t be moving. <br><br>
-The video should not be edited and completed in a single shot. <br><br>
-The video should not be longer than 2 minutes.
+<ol>
+<li>Only one entry per person will be accepted. </li><li>
+Record your video in a still frame, camera shouldn’t be moving. </li><li>
+The video should not be edited and completed in a single shot. </li><li>
+The video should not be longer than 2 minutes.</li>
+</ol>
+ To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below. <br><br>
 
-
-  `;
-
-  timeline.innerHTML =`
-Timeline: <br><br>
-March 8th: Google form Registrations open. <br><br>
-March 25th: Google form registrations close <br><br>
-April 2nd: Result Declaration.
-  `;
-
-  sub_details.innerHTML=`
-  To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below. <br><br>
-
-  Use your institute e-mail IDs only to fill this form. Entries from Multiple or non-institution email IDs will not be accepted. <br><br>
-The video file should not be more than 500 mb in size. <br><br>
-The video should be in MP4 format specifically. <br><br>
-Please use the nomenclature. Name_Institution code (e.g., Naman Mishra_10). Please find the institution code at the end of this rulebook.
+<ol> 
+<li>Use your institute e-mail IDs only to fill this form. Entries from Multiple or non-institution email IDs will not be accepted. </li><li>
+The video file should not be more than 500 mb in size. </li><li>
+The video should be in MP4 format specifically. </li><li>
+Please use the nomenclature. Name_Institution code (e.g., Naman Mishra_10). Please find the institution code at the end of this rulebook.</li>
+</ol>
 
 Institute codes: S. No. is the code. <br><br>
 <ol>
@@ -810,14 +815,28 @@ National Institute of Science Education and Research, Bhubaneshwar </li><li>
 Indian Institution of Science, Bangalore </li><li>
 Centre for Excellence in Basic Sciences, Mumbai</li>
 </ol>
+Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
+
 
   `;
 
-  contact.innerHTML=`
+  timeline.innerHTML =`
+<ul style="list-style-type:disc;">
+<li>March 8th: Google form Registrations open. </li><li>
+March 25th: Google form registrations close </li><li>
+April 2nd: Result Declaration.</li>
+</ul>
+  `;
 
-Contact information:
-Naman Mishra {naman.mishra@cbs.ac.in} <br><br>
-Tanveer Tadavi {tanveer.tadavi@cbs.ac.in}
+  sub_details.innerHTML=`
+  
+  `;
+
+  contact.innerHTML=`
+<ul style="list-style-type:disc;">
+<li>Naman Mishra {naman.mishra@cbs.ac.in} </li><li>
+Tanveer Tadavi {tanveer.tadavi@cbs.ac.in}</li>
+</ul>
 
   `;
 
@@ -883,6 +902,7 @@ Due to Google’s policies, you will need to provide access when requested. (Jus
   `;
 
   timeline.innerHTML =`
+
 <br><br>  We shall provide the necessary link for submission for the event by 13/03/2021.
 <br><br>The registration opens on 14/03/2021, kindly fill the form by 27/03/2021. All participants are required to fill the form within the deadline and all further communications will be done through the mail/contact provided in the form.
 <br><br>The link for submissions will be put on the Revival website & Lumière Instagram page (@lumiere.iiserm) .
