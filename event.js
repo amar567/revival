@@ -49,7 +49,7 @@ function picomix(){
   Are your creative senses tingling?
   Because now you have an amazing challenge, an opportunity to bring out more out of mere digital photos.<br><br>
 𝗧𝗲𝗹𝗹 𝘂𝘀 𝗮 𝗹𝗶𝘁𝘁𝗹𝗲 𝘀𝘁𝗼𝗿𝘆 𝗯𝘆 𝗺𝗮𝗸𝗶𝗻𝗴 𝗮 𝗳𝗼𝘂𝗿 𝗽𝗮𝗻𝗲𝗹 𝗰𝗼𝗺𝗶𝗰 𝗼𝘂𝘁 𝗼𝗳 𝗽𝗶𝗰𝘁𝘂𝗿𝗲𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗹𝗶𝗰𝗸𝗲𝗱.<br><br>
-Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate, 
+Draw over the images using digital tools such as Photoshop, Illustrator, Sketchbook, Krita, Procreate,
 and even the instagram drawing tool if you like to torment yourself! Manage to impress the judges and
 you shall find a place rare amongst creators, a champion of photography, art and literature!
   `;
@@ -113,7 +113,7 @@ Instagram</li><li>
 <ol type="a">
 <li> To find EXIF info in the gallery app go to the menu and tap on info.</li>
 <li> For Google photos you just need to swipe up to find EXIF info.</li>
-<li>If you're using a PC just right click on the photo and go to 
+<li>If you're using a PC just right click on the photo and go to
 properties to find EXIF info.</li>
 </ol></li>
 <li> Share the original image you used to create the entry.</li>
@@ -131,8 +131,8 @@ properties to find EXIF info.</li>
   sub_details.innerHTML=`
 Entries must be submitted using the google form which will be circulated.
 
-<br><br>Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. 
-<br>By participating, you give consent to the Revival Core Committee for such use. 
+<br><br>Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
+<br>By participating, you give consent to the Revival Core Committee for such use.
 <br>In case of any issue, do contact your respective institute’s Revival Secretary.
 `;
 
@@ -233,7 +233,7 @@ The teams are expected to upload their pdf files (both story and [cover-art+desc
 Do not mention the name of the participants anywhere in any of the documents.</li><li>
 The file name for story should be of the format  “Articulate_teamname_story”, for the cover image and image description should be “Articulate_teamname_cover” and the drive folder should be “Articulate_teamname”.</li>
 </ol>
-  
+
 Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience.
 <br> By participating, you give consent to the Revival Core Committee for such use.<br>
  In case of any issue, do contact your respective institute’s Revival Secretary.
@@ -241,7 +241,7 @@ Entries may be uploaded on social media by the Revival Core Committee, strictly 
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
-<li>  Arnab Lahiry (8697949062) <a href="https://www.instagram.com/spy.d_42/" style="color:blue;">@spy.d_42</a> (arnab@students.iisertirupati.ac.in) </li><li> 
+<li>  Arnab Lahiry (8697949062) <a href="https://www.instagram.com/spy.d_42/" style="color:blue;">@spy.d_42</a> (arnab@students.iisertirupati.ac.in) </li><li>
   Chaitanya Chawak (9405907765) (chaitanyachawak@students.iisertirupati.ac.in)</li><li>
   Sushmita Halder (8929798359) (sushmitahalder@students.iisertirupati.ac.in) </li>
 </ul>
@@ -267,8 +267,8 @@ function manthan(){
   subname.innerHTML=`Online Drama Event`;
 
   about.innerHTML=`
-    NISER presents Manthan, a drama event that, not unlike its name, will amalgamate seemingly unrelated characters 
-from the world of literature and cinema. A refreshing change from the usual drama events, we invite acts where the 
+    NISER presents Manthan, a drama event that, not unlike its name, will amalgamate seemingly unrelated characters
+from the world of literature and cinema. A refreshing change from the usual drama events, we invite acts where the
 personalities of these random characters must be preserved. Thereby, the end result should be a unique production of a fun and coherent plot.<br><br>
 
     So come on, bring your ‘A’ game to us! Put on your thinking caps, and wait for us to unleash the characters on you!.
@@ -378,7 +378,7 @@ Trashion presents a unique opportunity to creatively unleash your inner fashioni
 
   judging_criteria.innerHTML=`
 <ul style="list-style-type:disc;">
-<li> Theme Selection </li><li> 
+<li> Theme Selection </li><li>
 Use of materials</li><li>
 originality</li><li>
 presentation</li><li>
@@ -431,7 +431,7 @@ In case of any issue, do contact your respective institute’s Revival Secretary
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
-<li>Harshit Pal - 9974857459 
+<li>Harshit Pal - 9974857459
 <a href="https://www.instagram.com/i_m_hazlitt/" style="color:blue;">@i_m_hazlitt</a></li><li>
 <a href="https://www.instagram.com/celebrations.at.iiserbpr/" style="color:blue;">@celebrations.at.iiserbpr</a></li>
 <ul>
@@ -475,7 +475,7 @@ function lazarus(){
     `;
 
   event_details.innerHTML =`
-  
+
   `;
 
   prizes.innerHTML=`
@@ -638,8 +638,8 @@ IISER Bhopal’s Organising Team will update soon.
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
 <li>
-Sarthak - +91 7077965840  <a href="https://www.instagram.com/sathak.g_art/" style="color:blue;">@sathak.g_art</a> </li><li>
-Harshwardhan - +91 6263163831 </li><li>
+Sarthak - +91 7077965840  <a href="https://www.instagram.com/_nusart_/" style="color:blue;">@_nusart_</a> </li><li>
+Yashwardhan - +91 6263163831 </li><li>
 
 <a href="https://www.instagram.com/falc_iiserb/" style="color:blue;">@falc_iiserb</a> </li><li>
 
@@ -657,7 +657,7 @@ function poetry_slam(){
   img2.src = `./img/events/poetry_slam.jpg`;
 
   img.src = `./img/events/poetry_slam.jpg`;
-  
+
   $('#regbtn2').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
 
   $('#regbtn').attr('href','https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link');
@@ -749,14 +749,14 @@ Finals:
 
   sub_details.innerHTML=`
 
-Prelims (Submission based)– 
+Prelims (Submission based)–
 <ul style="list-style-type:disc;">
 <li>Registration cum submission Starts on 14th March 2021</li>
 <li>Registration cum submission ends on 22th March 2021</li>
 </ul>
 
 <br><br>
-Submission link - 
+Submission link -
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVuSQCh1xKNfIc0pY8-FpCoDPVTKYwZNGxpfiGGCqwPZ4JxA/viewform?usp=sf_link" style="color:blue;">Click to Submit</a>
 <br><br>
 Finals (Live Event) – 4th April 2021
@@ -812,7 +812,7 @@ Judgement will be done on the basis of originality, creativity, music sense, dif
 
   `;
 
-  elegibility.innerHTML=` 
+  elegibility.innerHTML=`
 <ol>
 <li>  ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
 </li><li> This is a Solo Event.</li>
@@ -828,16 +828,16 @@ The video should not be edited and completed in a single shot. </li><li>
 The video should not be longer than 2 minutes.</li>
 </ol>
 <br><br>
- To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below. 
+ To participate in the competition, contestants must register via google form. Link to which is attached with the mail. The guidelines for filling the google forms are given below.
 
-<ol> 
+<ol>
 <li>Use your institute e-mail IDs only to fill this form. Entries from Multiple or non-institution email IDs will not be accepted. </li><li>
 The video file should not be more than 500 mb in size. </li><li>
 The video should be in MP4 format specifically. </li><li>
 Please use the nomenclature. Name_Institution code (e.g., Naman Mishra_10). Please find the institution code at the end of this rulebook.</li>
 </ol>
 <br><br>
-Institute codes: S. No. is the code. 
+Institute codes: S. No. is the code.
 <ol>
 <li>
 Indian Institute of Science Education and Research, Kolkata </li><li>
@@ -900,7 +900,7 @@ function capture_it(){
   about.innerHTML=`
 
 An online photography competition without any thematic restrictions is the perfect platform to express yourself with your pictures.
-While life may have come to a standstill this year, we still have memories encased in our camera reels. 
+While life may have come to a standstill this year, we still have memories encased in our camera reels.
 So get ready to share your best clicks in this enthralling competition!
 
 
