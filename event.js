@@ -889,9 +889,9 @@ function capture_it(){
 
   img.src = `./img/events/capture_it.jpg`;
 
-  $('#regbtn2').attr('href','https://forms.gle/L7NqnjijvE77evNM7');
+  $('#regbtn2').attr('href','https://forms.gle/9FT36eTkkUgYvJCQA');
 
-  $('#regbtn').attr('href','https://forms.gle/L7NqnjijvE77evNM7');
+  $('#regbtn').attr('href','https://forms.gle/9FT36eTkkUgYvJCQA');
 
   event_name.innerHTML=`CAPTURE IT!`;
 
@@ -919,7 +919,12 @@ The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (i
   `;
 
   judging_criteria.innerHTML=`
-   Will be updated shortly by the Revival Secretaries’ Committee.
+<ol>
+<li>   Abhishek Howlader will be the judge of this competition. (https://abhihowlader.wixsite.com/abhishekhowalder)</li><li>
+Although there is no theme set for the competition, each photo needs to be submitted with the theme photographer intends to be judged on.</li><li>
+Caption is highly recommended.</li><li>
+Decision by the judge will be final.</li>
+</ol>
   `;
 
   elegibility.innerHTML=`
@@ -933,11 +938,9 @@ This is a solo event and will operate on the basis of submissions. </li>
   guidelines.innerHTML=`
 <ol>
 <li>This is a solo event, each participant can send only 1 photo. </li><li>
-Photo should be in JPG/JPEG format. </li><li>
+Photos should be in JPG/JPEG format. </li><li>
 The participant is expected to send us the photo between 14/03/2021 & 27/03/2021. </li><li>
-Only entries from Google form will be considered. </li><li>
-You are supposed to provide us a Google drive link to your photo from where we can download it. </li><li>
-Due to Google’s policies, you will need to provide access when requested. (Just sharing the link is not enough.) </li>
+Only entries from Google form will be considered. </li>
 </ol>
 
 Entries may be uploaded on social media by the Revival Core Committee, strictly subject to their convenience. By participating, you give consent to the Revival Core Committee for such use. In case of any issue, do contact your respective institute’s Revival Secretary.
@@ -955,7 +958,7 @@ All participants are required to fill the form within the deadline. all further 
   `;
 
   sub_details.innerHTML=`
-The registration opens on 14/03/2021, kindly fill the form by 27/03/2021.
+<a href="https://forms.gle/9FT36eTkkUgYvJCQA" style="color:blue;">Submit Here</a>
 
 `;
 
