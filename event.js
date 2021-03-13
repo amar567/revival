@@ -920,7 +920,7 @@ The judgement of the event will be delivered by 30/03/2021 on @lumiere.iiserm (i
 
   judging_criteria.innerHTML=`
 <ol>
-<li>   Abhishek Howlader will be the judge of this competition. (https://abhihowlader.wixsite.com/abhishekhowalder)</li><li>
+<li>   Abhishek Howlader will be the judge of this competition. (<a href="https://abhihowlader.wixsite.com/abhishekhowalder" style="color:blue;">https://abhihowlader.wixsite.com/abhishekhowalder</a>)</li><li>
 Although there is no theme set for the competition, each photo needs to be submitted with the theme photographer intends to be judged on.</li><li>
 Caption is highly recommended.</li><li>
 Decision by the judge will be final.</li>
