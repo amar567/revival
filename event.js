@@ -447,23 +447,38 @@ function lazarus(){
   img2.src = `./img/events/lazarus.jpg`;
 
   img.src = `./img/events/lazarus.jpg`;
-
-  $('#regbtn2').attr('href','https://forms.gle/bSsrSGeWr4FegW3r9');
-
-  $('#regbtn').attr('href','https://forms.gle/bSsrSGeWr4FegW3r9');
+  //
+  // $('#regbtn2').attr('href','https://forms.gle/bSsrSGeWr4FegW3r9');
+  //
+  // $('#regbtn').attr('href','https://forms.gle/bSsrSGeWr4FegW3r9');
 
   event_name.innerHTML=`LAZARUS`;
 
   subname.innerHTML=`<font class="gt">Online Musico-visual Competition</font>`;
 
+  document.getElementById('lz1').style.display=`none`;
+
+  document.getElementById('lz2').style.display=`none`;
+
+
+  document.getElementById('extrabtn3').innerHTML=`
+  <div class="st" style="text-align:center;">
+    <a href="lazarus2.html"><button class="regbtn" type="button">Round-2 details</button></a> <br><br>
+  </div>`;
+
+  document.getElementById('extrabtn4').innerHTML=`
+  <div class="lt" style="text-align:center;">
+    <a href="lazarus2.html"><button class="regbtn" type="button">Round-2 details</button></a> <br><br>
+  </div>`;
+
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
-    <a href="lazarus1.html" id="regbtn2"><button class="regbtn" type="button">Round-1 details</button></a> <br><br>
+    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Round-1 Results</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="lazarus1.html" id="regbtn2"><button class="regbtn" type="button">Round-1 details</button></a> <br><br>
+    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Round-1 Results</button></a> <br><br>
   </div>`;
 
   about.innerHTML=`
@@ -506,7 +521,7 @@ function lazarus(){
        Harmony line.</li><li>
        Skill and technique.</li><li>
        Overall presentation</li>
-      </ul>
+      </ol>
 </li></ol>
   `;
 
@@ -563,7 +578,14 @@ function lazarus(){
 </ul>
   `;
 
-  sub_details.innerHTML=`Video entries must be submitted using the google form which will be circulated by mail/on the website. This will be clarified on/after Registration.`;
+  sub_details.innerHTML=`
+  Video entries must be submitted using the google form which will be circulated by mail/on the website. This will be clarified on/after Registration.
+  <br>
+  <li> <font style="color:red;"> Registrations for Lazarus is closed now!</font> </li>
+  <li> <a style="color:blue;" href="./lazarus1.html"> Round-1 Submission Guidelines </a> </li>
+  <li> <a style="color:blue;" href="./lazarus2.html"> Round-2 Submission Guidelines </a> </li>
+
+  `;
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">
@@ -611,17 +633,31 @@ IISER Bhopal’s Organising Team will update soon.
   `;
 
   judging_criteria.innerHTML=`
-IISER Bhopal’s Organising Team will update soon.
+  N.A.
   `;
 
   elegibility.innerHTML=`
 
-Team size Maximum limit 4
-
+<ul>
+<li>ONLY current students from IISERs, NISER, IISc, and CEBS are allowed to participate in this event. ​Alumni are not allowed​ to participate.
+  </li><li>
+  Team size Maximum limit 4
+  </li>
+</ul>
   `;
 
   guidelines.innerHTML=`
-IISER Bhopal’s Organising Team will update soon.
+  <ol>
+<li> Actively look out for whatever information you can acquire and use them in the best possible way you know.</li><li>
+ In-game hints are provided whenever necessary.</li><li>
+ This online game is totally based upon PC Browser, preferably Chrome. However occasional
+use of mobile phone can not be ruled out completely.</li><li>
+ You don’t require prior knowledge of programming to play this game. Although it is expected
+that at least you know how to browse through the internet, use browsing tools and links.</li><li>
+ Use lowercase alphabets and no spacing in between unless prompted otherwise.</li><li>
+ Use your own email address to register and at the time of submission. Further communication
+regarding winners will be addressed through this mail.</li>
+</ol>
   `;
 
   timeline.innerHTML =`
@@ -633,7 +669,7 @@ IISER Bhopal’s Organising Team will update soon.
 </ul>
   `;
 
-  sub_details.innerHTML=``;
+  sub_details.innerHTML=`NA..`;
 
   contact.innerHTML=`
 <ul style="list-style-type:disc;">

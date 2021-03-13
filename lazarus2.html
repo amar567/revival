@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/menu.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>LAZARUS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="./js/schedule.js"></script>
+
+  <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @font-face{
+        font-family: custom;
+        src:url("../assets/custom.otf");
+    }
+
+    body {
+      overflow-y: hidden; /* Hide vertical scrollbar */
+      overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    body{
+      background-image: url("./img/bg.svg");
+      background-position: center;
+      background-repeat: repeat;
+      background-size:cover;
+      background-color: #8b8c8c;
+    }
+
+    .fb-cont{
+      height:163vh;
+    }
+
+    @media only screen and (max-width: 1454px) {
+         .fb-cont {
+          height:100%;
+        }
+      }
+
+    .make-me-sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+
+      padding: 0 15px;
+    }
+
+    .container-c {
+      margin: 0 auto;
+      width: 300px;
+      height: 432px;
+      position: relative;
+      perspective: 10000px;
+    }
+
+    .carousel {
+
+      position: absolute;
+      transform-style: preserve-3d;
+      transition: transform 1s;
+    }
+
+    .item {
+      display: block;
+      position: absolute;
+      background: #FFF;
+      width: 100%;
+      height: 423px;
+      color: #000;
+      opacity: 0.95;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .a {
+      transform: rotateY(0deg) translateZ(310px);
+
+    }
+    .b {
+      transform: rotateY(60deg) translateZ(310px);
+
+    }
+    .c {
+      transform: rotateY(120deg) translateZ(310px);
+
+    }
+    .d {
+      transform: rotateY(180deg) translateZ(310px);
+
+    }
+    .e {
+      transform: rotateY(240deg) translateZ(310px);
+
+    }
+    .f {
+      transform: rotateY(300deg) translateZ(310px);
+
+    }
+
+    .next, .prev {
+      color: #222;
+      position: absolute;
+      top: 50%;
+      padding: 10px 16px;
+      cursor: pointer;
+      background: gray;
+      opacity: 0.8;
+      border-radius: 50px;
+      border-top: 1px solid #FFF;
+    }
+    .next:hover, .prev:hover { color: #000; }
+    .next:active, .prev:active {
+      top: 51%;
+    }
+    .next { right: 5em; }
+    .prev { left: 5em; }
+
+    .scrollbox2 {
+    margin: auto;
+    height: 84vh;
+    width: 80vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  img.center2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .grid-container3 {
+    display:none;
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    .grid-container5 {
+      display: block;
+      padding: 0px 0px;
+      width:80vw;
+      box-sizing: border-box;
+      z-index: 15;
+    }
+
+    .event_button{
+      width: 40vw;
+      height: 20vh;
+      margin: auto;
+      display: block;
+    }
+  }
+
+  </style>
+  <link rel="stylesheet" href="./css/main.css">
+  <!--flipcard CSS and JS-->
+  <link href='./css/bootstrap.css' rel='stylesheet' />
+</head>
+  <body onresize="padding()" onload="padding()" style="width:100vw">
+
+    <div class=""> <!--template for every pages-->
+          <div class="logo" class="">
+            <div class="">
+              <div class="" style="padding-top:20px;">
+                <img class="w1000" src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;" alt="">
+                <img src="./img/logo.svg" style="width:15vh;position:absolute;left:30px;top:2.5vh;" alt="">
+                <div class="w1000" style="position:relative;text-align:center;margin-left: auto;margin-right: auto;">
+                  <p style="display:inline-flex;">
+                    <a href="index.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> HOME </button></a>
+                    <a href="events.html"><button class="none pincktxt" type="button" onclick="" style="font-size: 2.3vh;"> EVENTS</button></a>
+                    <a href="about.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> ABOUT US </button></a>
+                    <!-- <a href="team.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> OUR TEAM</button></a> -->
+                    <a target="_blank" href="./assets/Schedule.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> SCHEDULE</button></a>
+                    <a target="_blank" href="./assets/FAQ's.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> FAQ</button></a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="wm1000" style="position:relative;text-align:center;" onclick="menu()" >
+              <nav role="navigation">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul><ul>
+                </div>
+              </nav>
+          </div>
+          <div class="none" id="menu1" >
+            <div class="full-height" style="font-family: -webkit-pictograph;">
+              <div>
+                <div class="" style="height:10vh"></div>
+                <div>
+                  <div class="" style="color: #00FFFF;font-size: 10vh;">
+                    MENU <div class="" style="height:0px;"></div>
+                  </div>
+                  <div class="" style="font-size:4vh">
+                    <br>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="index.html">HOME</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="events.html">EVENTS</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a href="about.html">ABOUT US</a>
+                  </div>
+                  <!-- <div class="" style="font-size: 6vh;color:white;">
+                    <a href="team.html">OUR TEAM</a>
+                  </div> -->
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a target="_blank" href="./assets/Schedule.pdf">SCHEDULE</a>
+                  </div>
+                  <div class="" style="font-size: 6vh;color:white;">
+                    <a target="_blank" href="./assets/FAQ's.pdf">FAQ</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
+    </div>
+
+    <div class="gt" style="height:20px"></div>
+
+    <div class="padding-st" style="font-family: -webkit-pictograph;"> <!--page content goes here-->
+      <div class="scrollbox2 lazbox">
+        <div class="">
+          <h1 style="text-align:center;" id="event_name">LAZARUS</h1>
+          <!-- <h3 style="text-align:center;position:relative;top:-20px;" id="subname">Online Musico-Visual Compitition</h3> -->
+          <h3 style="text-align:center;" id="subname">Round - 2 Thematic images</h3>
+          <h5 style="text-align:center;">Deadline - 16th March, 11:59 PM</h5>
+          <div class="" style="">
+            <div class="" style="text-align:center;">
+              <a target="_blank" href="https://forms.gle/BdQPptquosQZnywq5"><button class="regbtn" type="button" style="padding: 0 20px;width:auto;">Submission Portal</button></a> <br><br>
+            </div>
+          </div>
+        </div>
+
+        <!--carousel-->
+        <div class="container-c gt" style="">
+          <div class="carousel  " style="transform: rotateY(0deg);">
+            <div class="item a"><img src="./img/lazarus_r2/img1.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+            <div class="item b"><img src="./img/lazarus_r2/img2.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+            <div class="item c"><img src="./img/lazarus_r2/img3.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+            <div class="item d" ><img src="./img/lazarus_r2/img4.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+            <div class="item e"><img src="./img/lazarus_r2/img5.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+            <div class="item f"><img src="./img/lazarus_r2/img6.png" width="300px" height="423px" style="border-radius: 10px;"></div>
+          </div>
+          <div class="next" style="right:-10%;">></div>
+          <div class="prev" style="left:-10%;"><</div>
+        </div>
+        <div class="gt" style="height:20px"></div>
+
+        <div class="grid-container5 lt" style="margin:auto">
+          <div>
+            <img class="center2 lt" src="img/lazarus_r2/img1.png" style="height:300px;padding-left:auto;padding-right:auto;" alt=""><br><br>
+          </div>
+          <div>
+            <img class="center2 lt" src="img/lazarus_r2/img2.png" style="height:300px;padding-left:auto;padding-right:auto;" alt=""><br><br>
+          </div>
+          <div>
+            <img class="center2 lt" src="img/lazarus_r2/img3.png" style="height:300px;padding-left:auto;padding-right:auto;" alt=""><br><br>
+          </div>
+          <div>
+            <img class="center2 lt" src="img/lazarus_r2/img4.png" style="height:300px;padding-left:auto;padding-right:auto;" alt=""><br><br>
+          </div>
+          <div>
+            <img class="center2 lt" src="img/lazarus_r2/img5.png" style="height:300px;padding-left:auto;padding-right:auto;" alt=""><br><br>
+          </div>
+        </div>
+
+        <div class="" style="text-align:left;">
+          <ul>
+
+            <h4>Guidelines for Round 2 of Lazarus</h4>
+
+            <li>Only the shortlisted participants of Round 1 would be eligible to participate in Round 2.
+            Shortlisted participants will recieve communication about their selection in Round 1 from our club mail ID <a style="color:blue;" href="mailto:music.activity@iiserkol.ac.in">music.activity@iiserkol.ac.in</a> .
+            List of shortlisted participants will also be available on Instagram handle of Revival as well as website of Revival.</li>
+
+            <li>The theme of this round is the common emotion expressed by all the given images. The participants are expected to interpret and understand the common theme and perform a musical piece based upon it and make a video of your performance.</li>
+
+            <li>Participants should also write a few lines explaining how their music is intertwined with the theme of the images or they should interpret the image in the google form.</li>
+
+            <li>Participants should display a slide, elucidating their Name, their Institute's name,  name of the song, and Image no.  in the first 5 secs of their submission video. It is compulsory to show your face and visualsof you performing in the video otherwise your entry will be disqualified.</li>
+
+          </ul>
+          <h3 style="text-align:center;">Best of luck!</h3>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function padding(){
+        a = document.getElementById('pgbody').offsetWidth;
+        b = window.innerWidth;
+        c = (b-a)/2;
+        document.getElementById('pgbody').style.left=c+'px';
+
+        d = document.getElementById('pgbody').offsetHeight;
+        e = window.innerHeight;
+        f = (e-d)/2;
+        document.getElementById('pgbody').style.top=f-50+'px';
+      };
+
+      function menu(){
+        document.getElementById('menu1').classList.toggle("none");
+      }
+    </script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/carousel.js"></script>
+  </body>
+</html>
