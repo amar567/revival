@@ -579,7 +579,7 @@ function lazarus(){
   `;
 
   sub_details.innerHTML=`
-  Video entries must be submitted using the google form which will be circulated by mail/on the website. This will be clarified on/after Registration.
+  
   <br>
   <li> <font style="color:red;"> Registrations for Lazarus is closed now!</font> </li>
   <li> <a style="color:blue;" href="./lazarus1.html"> Round-1 Submission Guidelines </a> </li>
