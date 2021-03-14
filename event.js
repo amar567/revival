@@ -580,11 +580,11 @@ function lazarus(){
 
   sub_details.innerHTML=`
   
-  <br>
+  <ul style="list-style-type:disc;">
   <li> <font style="color:red;"> Registrations for Lazarus is closed now!</font> </li>
   <li> <a style="color:blue;" href="./lazarus1.html"> Round-1 Submission Guidelines </a> </li>
   <li> <a style="color:blue;" href="./lazarus2.html"> Round-2 Submission Guidelines </a> </li>
-
+</ul>
   `;
 
   contact.innerHTML=`
