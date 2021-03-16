@@ -675,7 +675,7 @@ regarding winners will be addressed through this mail.</li>
 <ul style="list-style-type:disc;">
 <li>
 Sarthak - +91 7077965840  <a href="https://www.instagram.com/_nusart_/" style="color:blue;">@_nusart_</a> </li><li>
-Yashovardhan - +91 6263163831 </li><li>
+Yashovardhan - +91 6263163831 <a href="https://www.instagram.com/yashovardhanjha/" style="color:blue;">@yashovardhanjha</a></li><li>
 
 <a href="https://www.instagram.com/falc_iiserb/" style="color:blue;">@falc_iiserb</a> </li><li>
 
