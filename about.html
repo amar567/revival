@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="./css/main.css">
   <script src="./js/menu.js" charset="utf-8"></script>
 </head>
-  <body onresize="padding()" onload="padding()" style="width:100vw">
+  <body style="width:100vw;">
     <div class=""> <!--template for every pages-->
           <div class="logo" class="">
             <div class="">
@@ -48,17 +48,17 @@
             </div>
           </div>
 
-        <div class=""  id="swipezone">
-          <div id="mySidebar" class="sidebar" >
+        <div id="mySidebar" class="sidebar">
+          <div id="swipezone" >
             <div class="" style="height:18vh;background-color:#01DBFA;">
               <!-- <div class="" onclick="closenav()">x</div> -->
               <img src="./img/logo.svg" style="width:180px;position:relative;padding-top:4vh;padding-left:6vh;" alt="">
             </div><br><br>
-            <a href="#profile"  onclick="closenav()"><img src="img/menu/home.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> HOME</a>
-            <a href="#Blogs"  onclick="closenav()"><img src="img/menu/calendar.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> EVENTS</a>
-            <a href="#Contact-me"  onclick="closenav()"><img src="img/menu/person.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> ABOUT US</a>
-            <a href="#"  onclick="closenav()"><img src="img/menu/schedule.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> SCHEDULE</a>
-            <a href="#"  onclick="closenav()"><img src="img/menu/faq.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> FAQ</a>
+            <a href="./index.html"  onclick="closenav()"><img src="img/menu/home.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> HOME</a>
+            <a href="./events.html"  onclick="closenav()"><img src="img/menu/calendar.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> EVENTS</a>
+            <a href="about.html"  onclick="closenav()"><img src="img/menu/person.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> ABOUT US</a>
+            <a href="./assets/Schedule.pdf"  onclick="closenav()"><img src="img/menu/schedule.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> SCHEDULE</a>
+            <a href="./assets/FAQ's.pdf"  onclick="closenav()"><img src="img/menu/faq.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> FAQ</a>
 
             <!--footer-->
             <div style="width:200px;bottom:1vh;position: absolute;left:100%;">
@@ -133,21 +133,6 @@ So come, unleash your creativity!
     </div>
 
     <script>
-      function padding(){
-        a = document.getElementById('pgbody').offsetWidth;
-        b = window.innerWidth;
-        c = (b-a)/2;
-        document.getElementById('pgbody').style.left=c+'px';
-
-        d = document.getElementById('pgbody').offsetHeight;
-        e = window.innerHeight;
-        f = (e-d)/2;
-        document.getElementById('pgbody').style.top=f-50+'px';
-      };
-
-      function menu(){
-        document.getElementById('menu1').classList.toggle("none");
-      }
     </script>
   </body>
 </html>

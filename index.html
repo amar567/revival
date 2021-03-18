@@ -31,72 +31,89 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
   <body onresize="padding()" onload="padding()" style="width:100vw">
-    <div class="logo" class="">
-      <div class="">
-        <div class="" style="padding-top:20px;">
-          <img class="w1000" src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;" alt="">
-          <img src="./img/logo.svg" style="width:15vh;position:absolute;left:30px;top:2.5vh;" alt="">
-          <div class="w1000" style="position:relative;text-align:center;margin-left: auto;margin-right: auto;">
-            <p style="display:inline-flex;">
-              <a href="index.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;color:#2C2D2D;"> HOME </button></a>
-              <a href="events.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> EVENTS</button></a>
-              <a href="./about.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> ABOUT US </button></a>
-              <!-- <a href="team.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> OUR TEAM</button></a> -->
-              <a target="_blank" href="./assets/Schedule.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> SCHEDULE</button></a>
-              <a target="_blank" href="./assets/FAQ's.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> FAQ</button></a>
-            </p>
+    <script src="./js/menu.js" charset="utf-8"></script>
+  </head>
+    <body style="width:100vw;">
+      <div class=""> <!--template for every pages-->
+            <div class="logo" class="">
+              <div class="">
+                <div class="" style="">
+                  <img class="w1000" src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;padding-top:20px;" alt="">
+                  <img src="./img/logo.svg" style="width:15vh;position:absolute;left:30px;top:2.5vh;" alt="">
+                  <div class="w1000" style="position:relative;text-align:center;margin-left: auto;margin-right: auto;">
+                    <p style="display:inline-flex;padding-top:20px;">
+                      <a  href="index.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> HOME </button></a>
+                      <a  href="events.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> EVENTS</button></a>
+                      <a  href="about.html"><button class="none pincktxt" type="button" style="font-size: 2.3vh;color:#2C2D2D;"> ABOUT US </button></a>
+                      <!-- <a  href="team.html"> <button class="none pincktxt" type="button" style="font-size: 2.3vh;"> OUR TEAM</button></a> -->
+                      <a   target="_blank" href="./assets/Schedule.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> SCHEDULE</button></a>
+                      <a target="_blank" href="./assets/FAQ's.pdf"><button class="none pincktxt" type="button" style="font-size: 2.3vh;"> FAQ</button></a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div id="mySidebar" class="sidebar">
+            <div id="swipezone" >
+              <div class="" style="height:18vh;background-color:#01DBFA;">
+                <!-- <div class="" onclick="closenav()">x</div> -->
+                <img src="./img/logo.svg" style="width:180px;position:relative;padding-top:4vh;padding-left:6vh;" alt="">
+              </div><br><br>
+              <a href="./index.html"  onclick="closenav()"><img src="img/menu/home.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> HOME</a>
+              <a href="./events.html"  onclick="closenav()"><img src="img/menu/calendar.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> EVENTS</a>
+              <a href="about.html"  onclick="closenav()"><img src="img/menu/person.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> ABOUT US</a>
+              <a href="./assets/Schedule.pdf"  onclick="closenav()"><img src="img/menu/schedule.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> SCHEDULE</a>
+              <a href="./assets/FAQ's.pdf"  onclick="closenav()"><img src="img/menu/faq.svg" alt="" class="" style="padding-right:2vh;height:3.5vh;"> FAQ</a>
+
+              <!--footer-->
+              <div style="width:200px;bottom:1vh;position: absolute;left:100%;">
+                <div class="" style="position:absolute;bottom:1vh;position:relative;left:-100%;width:200px;">
+                  <div class="grid-container4">
+                    <div class=""> <a href="https://youtube.com/channel/UCECDVEQ3ntMsm6zAQHTMV-Q?sub_confirmation=1"> <img src="img/yt.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+                    <div class=""> <a href="https://www.instagram.com/revival.iisers/"> <img src="img/insta.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+                    <div class=""> <a href="https://m.facebook.com/profile.php?id=102838505138276&ref=content_filter"> <img src="img/fb.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+                    <!-- <div class=""> <a href="https://linktr.ee/Revival.iiser"> <img src="img/lnktree.svg" alt="" style="width:25px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div> -->
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div>
-        </div>
+            <div class="disp_none" id="dark" onclick="closenav()" style="position:fixed;height:100vh;width:100vw;background-color:rgba(0,0,0,0.7);z-index:1;"></div>
+
+            <div class="" onclick="opennav()" style="top:3.5vh;position:relative;">
+              <div class="wm1000" style="position:relative;text-align:center;">
+                  <nav role="navigation">
+                    <div id="menuToggle">
+                      <!-- <input /> -->
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                      <ul><ul>
+                    </div>
+                  </nav>
+              </div>
+            </div>
+            <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
       </div>
-    </div>
-    <div class="wm1000" style="position:relative;text-align:center;" onclick="menu()" >
-        <nav role="navigation">
-          <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul><ul>
-          </div>
-        </nav>
-    </div>
-    <div class="none" id="menu1" >
-      <div class="full-height" style="font-family: -webkit-pictograph;">
-        <div>
-          <div class="" style="height:10vh"></div>
-          <div>
-            <div class="" style="color: #00FFFF;font-size: 10vh;">
-              MENU <div class="" style="height:0px;"></div>
-            </div>
-            <div class="" style="font-size:4vh">
-              <br>
-            </div>
-            <div class="" style="font-size: 6vh;color:white;">
-              <a href="index.html">HOME</a>
-            </div>
-            <div class="" style="font-size: 6vh;color:white;">
-              <a href="events.html">EVENTS</a>
-            </div>
-            <div class="" style="font-size: 6vh;color:white;">
-              <a style="color: #00FFFF" href="about.html">ABOUT US</a>
-            </div>
-            <!-- <div class="" style="font-size: 6vh;color:white;">
-              <a href="team.html">OUR TEAM</a>
-            </div> -->
-            <div class="" style="font-size: 6vh;color:white;">
-              <a target="_blank" href="./assets/Schedule.pdf">SCHEDULE</a>
-            </div>
-            <div class="" style="font-size: 6vh;color:white;">
-              <a target="_blank" href="./assets/FAQ's.pdf">FAQ</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <div class="text-align:center;">
           <img id="pgbody" src="./img/pheonix.svg" alt="" class="pheonix">
     </div>
     <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
+
+    <div style="width:200px;bottom:1vh;position: fixed;left:100%;">
+      <div class="wmin1000" style="position:absolute;bottom:1vh;position:relative;left:-100%;width:200px;">
+        <div class="grid-container4">
+          <div class=""> <a href="https://youtube.com/channel/UCECDVEQ3ntMsm6zAQHTMV-Q?sub_confirmation=1"> <img src="img/yt.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+          <div class=""> <a href="https://www.instagram.com/revival.iisers/"> <img src="img/insta.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+          <div class=""> <a href="https://m.facebook.com/profile.php?id=102838505138276&ref=content_filter"> <img src="img/fb.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
+          <!-- <div class=""> <a href="https://linktr.ee/Revival.iiser"> <img src="img/lnktree.svg" alt="" style="width:25px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div> -->
+        </div>
+      </div>
+    </div>
+
     <script>
       function padding(){
         a = document.getElementById('pgbody').offsetWidth;
