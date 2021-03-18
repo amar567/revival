@@ -773,7 +773,7 @@ English, then a full translation (effective translation, not a word-by-word tran
 Prelims:
 <ul style="list-style-type:disc;">
 <li>Registration cum submission Starts on 14th March 2021</li>
-<li>Registration cum submission ends on 22th March 2021</li>
+<li>Registration cum submission ends on 24th March 2021</li>
 </ul>
 Finals:
 <ul style="list-style-type:disc;">
