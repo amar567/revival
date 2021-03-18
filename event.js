@@ -608,9 +608,22 @@ function cicada(){
 
   img.src = `./img/events/cicada.png`;
 
-  $('#regbtn2').attr('href','');
+  // $('#regbtn2').attr('href','');
 
-  $('#regbtn').attr('href','');
+  // $('#regbtn').attr('href','');
+
+  document.getElementById('lz1').style.display=`none`;
+  document.getElementById('lz2').style.display=`none`;
+
+  document.getElementById('extrabtn1').innerHTML=`
+  <div class="st" style="text-align:center;">
+    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+  </div>`;
+
+  document.getElementById('extrabtn2').innerHTML=`
+  <div class="lt" style="text-align:center;">
+    <a href="https://students.iiserb.ac.in/cicada'21/"><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+  </div>`;
 
   event_name.innerHTML=`CICADA`;
 
