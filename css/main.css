@@ -2,6 +2,10 @@ body{
   margin:auto;
 }
 
+.disp_none{
+  display:none;
+}
+
 .event_cont{
   overflow: scroll;
 }
@@ -454,6 +458,11 @@ top: 0px;
 }
 
 @media only screen and (max-width: 1000px) {
+
+  .wmin1000{
+    display: none;
+  }
+
   .box{
     border-radius: 30px 0 30px 0;
     background-color: #E39DF4;
@@ -604,6 +613,16 @@ top: 0px;
  * Make this absolute positioned
  * at the top left of the screen
  */
+
+.grid-container4 {
+  display: grid;
+  padding: 0px 0px;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin:auto;
+  box-sizing: border-box;
+  z-index: 15;
+}
+
 #menu
 {
   position: absolute;
@@ -635,4 +654,52 @@ top: 0px;
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+/* hamburger menu */
+
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #blue;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
