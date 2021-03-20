@@ -157,22 +157,22 @@ function articulate(){
 
   img.src = `./img/events/articulate.png`;
 
-  // $('#regbtn2').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
+   $('#regbtn2').attr('href','https://forms.gle/rnkYZ13xt8BN5PGn8');
 
-  // $('#regbtn').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
+   $('#regbtn').attr('href','https://forms.gle/rnkYZ13xt8BN5PGn8');
 
   document.getElementById('lz1').style.display=`none`;
   document.getElementById('lz2').style.display=`none`;
 
-  document.getElementById('extrabtn1').innerHTML=`
-  <div class="st" style="text-align:center;">
-    <a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
-  </div>`;
+  // document.getElementById('extrabtn1').innerHTML=`
+  //<div class="st" style="text-align:center;">
+  //  <a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
+  //</div>`;
 
-  document.getElementById('extrabtn2').innerHTML=`
-  <div class="lt" style="text-align:center;">
-    <a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
-  </div>`;
+//  document.getElementById('extrabtn2').innerHTML=`
+  //<div class="lt" style="text-align:center;">
+    //<a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
+  //</div>`;
 
   event_name.innerHTML=`ARTICULATE`;
 
