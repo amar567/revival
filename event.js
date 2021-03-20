@@ -161,8 +161,8 @@ function articulate(){
 
    $('#regbtn').attr('href','https://forms.gle/rnkYZ13xt8BN5PGn8');
 
-  document.getElementById('lz1').style.display=`none`;
-  document.getElementById('lz2').style.display=`none`;
+  //document.getElementById('lz1').style.display=`none`;
+  //document.getElementById('lz2').style.display=`none`;
 
   // document.getElementById('extrabtn1').innerHTML=`
   //<div class="st" style="text-align:center;">
