@@ -157,9 +157,22 @@ function articulate(){
 
   img.src = `./img/events/articulate.png`;
 
-  $('#regbtn2').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
+  // $('#regbtn2').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
 
-  $('#regbtn').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
+  // $('#regbtn').attr('href','https://forms.gle/XQPFsMrjcXstYXtm7');
+
+  document.getElementById('lz1').style.display=`none`;
+  document.getElementById('lz2').style.display=`none`;
+
+  document.getElementById('extrabtn1').innerHTML=`
+  <div class="st" style="text-align:center;">
+    <a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
+  </div>`;
+
+  document.getElementById('extrabtn2').innerHTML=`
+  <div class="lt" style="text-align:center;">
+    <a><button class="regbtn" type="button" style="background-color:red;" >Closed</button></a> <br><br>
+  </div>`;
 
   event_name.innerHTML=`ARTICULATE`;
 
@@ -617,12 +630,13 @@ function cicada(){
 
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
-    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+  <!-- href="https://students.iiserb.ac.in/cicada'21/ -->
+    <a><button class="regbtn flash" type="button" style="" >Coming soon</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="https://students.iiserb.ac.in/cicada'21/"><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+    <a><button class="regbtn flash" type="button" style="" >Coming soon</button></a> <br><br>
   </div>`;
 
   event_name.innerHTML=`CICADA`;
