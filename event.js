@@ -643,7 +643,8 @@ function cicada(){
 
   subname.innerHTML=`Treasure Hunt`;
 
-  about.innerHTML=`Update: The Mini event trial run is over, and has been successful! So gear up for the main event as per the Events Timeline and other Details on the side!
+  about.innerHTML=`Update: The Mini event trial run is over, and has been successful! So gear up for the main event as per the Events Timeline and other Details below. 
+Don't miss out this exciting event!!!
 <br><br>
 
 Sick of solving your course and life problems? Enjoy the high of solving puzzles? <br><br>
