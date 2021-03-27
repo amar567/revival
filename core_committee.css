@@ -1,0 +1,490 @@
+.peopleHolder{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #0A2720;
+    font-size: 20px;
+    font-family: LaoSangam;
+}
+a{
+    text-decoration: none;
+}
+#mobMenuHolder{
+    display: none;
+}
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    cursor: pointer;
+    transition: all 0.4s;
+    opacity: 0;
+    z-index: 2;
+  }
+  #menuHolder{
+      z-index: 10;
+      position: relative;
+  }
+  .menu-btn-burger {
+    z-index: 0;
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    background: #303030;
+    border-radius: 5px;
+    transition: all 0.4s;
+  }
+  .menu-btn-burger:before, .menu-btn-burger:after {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    width: 40px;
+    height: 5px;
+    background: #303030;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 2px 5px rbga(255, 101, 80, 0.5);
+  }
+
+  .menu-btn-burger::before {
+    transform: translateY(-12px);
+  }
+
+  .menu-btn-burger::after {
+    transform: translateY(12px);
+  }
+
+  .menu-btn:checked + .menu-btn-burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .menu-btn:checked + .menu-btn-burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+
+  .menu-btn:checked + .menu-btn-burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+#arrow{
+    display: none;
+}
+#coreContainer{
+    width: 100%;height: 70%;display: flex;justify-content: space-evenly;position: relative;top: 50%;transform: translateY(-50%);
+}
+.peopleImage{
+    width: 210px;
+border-radius: 50%;
+padding: 2px;
+background: white;
+border: solid;
+}
+body{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    overflow: scroll;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+html{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 0;
+  height:0;
+}
+
+.active{
+    color:#000000!important;
+    font-size: 27px!important;
+}
+#events-rightBodyContainer{
+display: flex;
+height: 100%;
+width: 100%
+}
+#titleItems>a:hover{
+
+}
+#titleItems>a:active{
+
+}
+.circles{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    z-index: 2;
+    background-color:#C7C9C9;
+}
+#menu-container{
+    display: flex;
+    margin:10px 0 40px 0;
+}
+#menu-container>div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoRevival{
+    height: 60px;
+    padding-left: 30px;
+}
+#titleItems>a{
+    margin: 0 20px;
+    font-family: CooperHewittSemiBold;
+    font-size: 20px;
+    text-decoration: none;
+    color: #72C1CE;
+    text-shadow: 0px 0px 5px rgba(150, 150, 150, 0.15);
+}
+body>img{
+    transform: translateX(-50%);
+    position: relative;
+    left: 50vw;
+    margin-bottom: 50px;
+}
+#events-body{
+    top:5vh;
+    position: relative;
+}
+#events-rightBody{
+    position: absolute;
+    right: 8vw;
+    height: 540px;
+    width: 65vw;
+    background-color: #84C6F7;
+}
+#events-picHolder{
+    display: flex;
+    flex-direction: column;
+    margin: 80px 2.8vw 10px 2vw;
+}
+#events-leftBody{
+height: 540px;
+float: left;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-color: #A6FFED;
+border: solid black 3px;
+transform: translateX(-3px);
+}
+#events-pic{
+    width: 300px;
+height: 300px;
+padding: 2px;
+background: white;
+border: solid #383838;
+}
+
+#registerButton:hover{
+    background-color: #3A3A3A;
+cursor: pointer;
+}
+#registerButton:active{
+    box-shadow: none;
+}
+#events-descriptionHolder{
+    flex-grow: 1;
+    padding: 70px 2vw 70px 70px;
+}
+
+.events-listItems{
+    font-size: 24px;
+    display: flex;
+margin: 40px 0;
+font-family: LaoSangam;
+color:#2D2D2D;
+}
+.events-listItems:hover{
+color:black;
+cursor: pointer;
+}
+#events-leftBody>div{
+    height: 380px;
+    overflow-y: scroll;
+    padding: 0 4vw;
+    margin-right: 12px;
+}
+#events-leftBody>div::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  #events-leftBody>div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  #events-leftBody>div::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 50px;
+  }
+#events-rightBodyTitle{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    border:solid #262626;
+    background-color: white;
+}
+#events-descriptionHolder>div{
+height: 100%;
+width: 100%;
+overflow-y: scroll;
+}
+#events-descriptionHolder>div::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  #events-descriptionHolder>div::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+
+  #events-descriptionHolder>div::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 50px;
+  }
+.events-description>h1{
+    font-family: LaoSangam;
+    margin:0 0 12px 0;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+.events-description>div{
+    font-family: CooperHewittLight;
+    letter-spacing: 1px;
+font-size: 17px;
+line-height: 23px;
+}
+#events-rightBodyTitle>img{
+margin:10px 10px 10px 20px;
+height: 40px;
+width:40px;
+}
+#events-rightBodyTitle>span{
+    font-size: 35px;
+    align-self: center;
+    font-family: Abraham;
+    letter-spacing: 4px;
+    margin:0 20px 0 15px;
+    white-space: pre;
+}
+.events-description{
+    margin-bottom: 35px;
+    padding-right: 2vw;
+}
+#leftShade{
+    left: -4px;
+    top: -4px;
+}
+#logoClub{
+height: 30px;
+padding-right: 30px;
+transform: translateY(50%);
+}
+#rightShade{
+    right:-4px;
+    bottom:-4px;
+}
+.shade{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+}
+@font-face {
+    font-family: Abraham;
+    src: url(./fonts/6\ Abraham\ Stamp\ Demo.otf);
+  }
+  @font-face {
+    font-family: LaoSangam;
+    src: url(./fonts/Lao\ Sangam\ MN.ttf);
+  }
+  @font-face {
+    font-family: CooperHewittLight;
+    src: url(./fonts/CooperHewitt-Light.otf);
+  }
+  @font-face {
+    font-family: CooperHewittMedium;
+    src: url(./fonts/CooperHewitt-Medium.otf);
+  }
+
+  @font-face {
+    font-family: CooperHewittSemiBold;
+    src: url(./fonts/CooperHewitt-Semibold.otf);
+  }
+  @font-face {
+    font-family: CooperHewittBook;
+    src: url(./fonts/CooperHewitt-Book.otf);
+  }
+  @media only screen and (max-width: 1079px) {
+      #events-descriptionHolder{
+          padding:2vh 10vw 0px 10vw!important;
+      }
+      #events-descriptionHolder>div{
+overflow-y: initial;
+    }
+      .events-description>h1{
+          text-align: center!important;
+      }
+      .events-description>div{
+          text-align: justify!important;
+      }
+      #coreContainer{
+          flex-wrap: wrap;
+      }
+#registerButtonMob{
+    text-decoration: none;
+    white-space:pre;
+position:absolute;
+left:50%;
+bottom:0;
+white-space:pre;
+transform: translate(-50%,50%);
+letter-spacing: 2px;
+font-size: 15px;
+padding: 8px 25px;
+color:white;
+background-color:#343535;
+font-family: CooperHewittMedium;
+border: solid black 1px;
+}
+#mobMenuHolder{
+    background:white;
+width: 100vw;
+height: 100vh;
+z-index: 2;
+transition: all 0.5s;
+position: absolute;
+right: 0;
+display: none!important;
+}
+#arrow{
+    width: 50px;
+    left: 20px;
+    position: absolute;
+}
+#events-rightBodyTitle>img{
+    margin: 0.5vh 1vh 1vh 3vh!important;
+    height: 5vh!important;
+    width: 5vh!important;
+}
+#events-rightBodyTitle>span{
+    font-size: 4vh!important;
+    letter-spacing: 2px!important;
+    margin: 0 3vh 0 1.5vh!important;
+}
+
+#events-pic{
+    height: 60vw!important;
+    width:60vw!important;
+    align-self: center!important;
+}
+#events-picHolder{
+    order:-1!important;
+    margin: 8vh 0 1vh 0!important;
+}
+#registerButton{
+display: none!important;
+}
+#events-leftBody{
+display:none!important;
+width: 100%!important;
+height: 70vh!important;
+}
+#events-LeftBody>div{
+    height: 80%!important;
+}
+.events-listItems{
+justify-content: center!important;
+}
+#events-rightBody{
+width: 88vw;
+height: 65vh;
+right:6vw!important;
+border: solid black;
+}
+.shade{
+    display: none!important;
+}
+#events-rightBodyShadow{
+    display: none!important;
+}
+#events-rightBody>div{
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#disclaimer{
+    bottom: 0!important;
+    right:0!important;
+    font-size: 10px!important;
+}
+body>img{
+    height: 7vh!important;
+    margin-bottom: 0.8vh!important;
+}
+#menu-container{
+    display: block!important;
+    margin:0.8vh 0 2vh 0;
+}
+#logoClub{
+    height:2.5vh!important;
+    padding-right: 10px!important;
+    float:right!important;
+    display: none!important;
+}
+#logoRevival{
+padding-left:  10px!important;
+}
+#menu-container>img{
+    height: 5vh;
+}
+#titleItems{
+    display: none!important;
+}
+  }
+
+
+  @media screen and (min-width: 1080px) {
+    #registerButtonMob{
+display: none;
+    }
+    #menuHolder{
+    display: none!important;
+    }
+    #registerButton{
+        text-decoration: none;
+        align-self: center;
+margin-top: 35px;
+letter-spacing: 2px;
+font-size: 15px;
+padding: 6px 25px;
+color:white;
+background-color:#343535;
+font-family: CooperHewittMedium;
+box-shadow: 5px 4px #79A8B2;
+    }
+  }
+  @media screen and (min-width: 1080px) and (max-width: 1360px){
+#events-rightBody{
+    right:20px!important;
+    width: 70vw;
+
+}
+  }

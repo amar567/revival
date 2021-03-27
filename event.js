@@ -631,23 +631,19 @@ function cicada(){
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
   <!-- href="https://students.iiserb.ac.in/cicada'21/" -->
-    <a href="https://students.iiserb.ac.in/cicada'21/" ><button class="regbtn flash" type="button" style="" >Coming Soon</button></a> <br><br>
+    <a href="https://students.iiserb.ac.in/cicada'21/" ><button class="regbtn flash" type="button" style="" >Check out mini Cicada</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="https://students.iiserb.ac.in/cicada'21/" ><button class="regbtn flash" type="button" style="" >Coming Soon</button></a> <br><br>
+    <a href="https://students.iiserb.ac.in/cicada'21/" ><button class="regbtn flash" type="button" style="" >Check out mini Cicada</button></a> <br><br>
   </div>`;
 
   event_name.innerHTML=`CICADA`;
 
   subname.innerHTML=`Treasure Hunt`;
 
-  about.innerHTML=`Update: The Mini event trial run is over, and has been successful! So gear up for the main event as per the Events Timeline and other Details below. 
-Don't miss out this exciting event!!!
-<br><br>
-
-Sick of solving your course and life problems? Enjoy the high of solving puzzles? <br><br>
+  about.innerHTML=`Sick of solving your course and life problems? Enjoy the high of solving puzzles? <br><br>
 Take a break and join us in the battle of wits against time in our very own CICADA 3301, an online puzzle game organised by IISER Bhopal. This is no simple feat for a lone wolf so don't forget to bring your buddies with you, making a team of maximum 3-4 members to sail you through the quest. <br><br>
 
 The top three teams to make it to the end will be rewarded.
@@ -1052,9 +1048,9 @@ function mela_quiz(){
 
   img.src = `./img/events/mela_quiz.jpg`;
 
-  $('#regbtn2').attr('href','');
+  $('#regbtn2').attr('href','https://forms.gle/QidG5MDVBz2k7CmL9');
 
-  $('#regbtn').attr('href','');
+  $('#regbtn').attr('href','https://forms.gle/QidG5MDVBz2k7CmL9');
 
   event_name.innerHTML=`MELA QUIZ`;
 
