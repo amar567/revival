@@ -631,12 +631,12 @@ function cicada(){
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
   <!-- href="https://amardeephk.xyz/redirect/" -->
-    <a href="https://amardeephk.xyz/redirect/" ><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+    <a href="http://127.rf.gd/" ><button class="regbtn flash" type="button" style="" >Play Now</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="https://amardeephk.xyz/redirect/" ><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
+    <a href="http://127.rf.gd/" ><button class="regbtn flash" type="button" style="" >Play Now</button></a> <br><br>
   </div>`;
 
   event_name.innerHTML=`CICADA`;
