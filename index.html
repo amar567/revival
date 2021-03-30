@@ -3,37 +3,118 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/menu.css" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Revival 2021</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   </head>
   <style media="screen">
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
     @font-face{
         font-family: custom;
         src:url("../assets/custom.otf");
-    }
+    } */
 
     body {
-      overflow-y: hidden; /* Hide vertical scrollbar */
+      overflow-y: scroll; /* Hide vertical scrollbar */
       overflow-x: hidden; /* Hide horizontal scrollbar */
     }
 
     body{
       background-image: url("./img/bg.svg");
       background-position: center;
-      background-repeat: repeat;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
       background-size:cover;
       background-color: #8b8c8c;
     }
+
+    .bounce {
+        position: absolute;
+        margin-left: -20px;
+        animation-name: arrow;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        width: 40px;
+        height: 40px;
+        background-image: url("./img/arrow.svg");
+        background-size: contain;
+    }
+
+    @keyframes arrow {
+        0% {
+            left: 50%;
+            bottom: 30px;
+        }
+        25% {
+            left: 50%;
+            bottom: 50px;
+        }
+        50% {
+            left: 50%;
+            bottom: 30px;
+        }
+        75% {
+            left: 50%;
+            bottom: 50px;
+        }
+        100% {
+            left: 50%;
+            bottom: 30px;
+        }
+    }
+
+    .youtube{
+      width:50vw;
+      height:28.125vw;
+      display: block;
+      margin: auto;
+    }
+
+    @media only screen and (max-width: 768px){
+      .youtube{
+        width:100vw;
+        height:56.25vw;
+        padding: 4vw;
+        display: block;
+        margin: auto;
+      }
+
+      .mp{
+        position:relative;
+        height: 100vh;
+      }
+    }
+
+    @media only screen and (min-width: 600px){
+      .mp{
+        position:relative;
+        height: 100vh;
+      }
+    }
+
   </style>
+  <script>
+    function padding(){
+      a = document.getElementById('pgbody').offsetWidth;
+      b = window.innerWidth;
+      c = (b-a)/2;
+      document.getElementById('pgbody').style.left=c+'px';
+
+      d = document.getElementById('pgbody').offsetHeight;
+      e = window.innerHeight;
+      f = (e-d)/2;
+      document.getElementById('pgbody').style.top=f-50+'px';
+    };
+
+    function menu(){
+      document.getElementById('menu1').classList.toggle("none");
+    }
+  </script>
   <link rel="stylesheet" href="./css/main.css">
 </head>
-  <body onresize="padding()" onload="padding()" style="width:100vw">
-    <script src="./js/menu.js" charset="utf-8"></script>
-  </head>
-    <body style="width:100vw;">
+  <body onresize="padding()" onload="padding()" style="width:100%;">
+    <div style="" class="mp">
       <div class=""> <!--template for every pages-->
             <div class="logo" class="">
               <div class="">
@@ -95,15 +176,13 @@
                   </nav>
               </div>
             </div>
-            <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
       </div>
 
-    <div class="text-align:center;">
+      <div class="text-align:center;">
           <img id="pgbody" src="./img/pheonix.svg" alt="" class="pheonix">
+          <a href="#section2"><div class="arrow bounce"></div></a>
     </div>
-    <img class="wm1000"  src="./img/slashdot.svg" style="width:15vh;position:absolute;right: 30px;bottom:15px;" alt="">
-
-    <div style="width:200px;bottom:1vh;position: fixed;left:100%;">
+      <div style="width:200px;bottom:1vh;position: fixed;left:100%;">
       <div class="wmin1000" style="position:absolute;bottom:1vh;position:relative;left:-100%;width:200px;">
         <div class="grid-container4">
           <div class=""> <a target="_blank" href="https://youtube.com/channel/UCECDVEQ3ntMsm6zAQHTMV-Q?sub_confirmation=1"> <img src="img/yt.svg" alt="" style="width:30px;padding:6px 2px;margin-top:auto;margin-left:auto;margin-right: auto;margin-bottom: auto;display: block;"> </a> </div>
@@ -113,23 +192,24 @@
         </div>
       </div>
     </div>
+    </div>
 
-    <script>
-      function padding(){
-        a = document.getElementById('pgbody').offsetWidth;
-        b = window.innerWidth;
-        c = (b-a)/2;
-        document.getElementById('pgbody').style.left=c+'px';
+    <div class="">
+      <br><br>
+      <h1 class="gt" style="text-align:center;">Some heading</h1>
+      <h3 class="lt" style="text-align:center;">Some heading</h3>
+      <br class="gt">
+      <iframe class="youtube" style="" src="https://www.youtube.com/embed/EbTRapAPNB4?mute=0&autoplay=1&cc_load_policy=1&cc=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br><br>
+      <h1 class="gt" style="text-align:center;">Some heading</h1>
+      <h3 class="lt" style="text-align:center;">Some heading</h3>
+      <br class="gt">
+      <iframe class="youtube" style="" src="https://www.youtube.com/embed/pL0dByZ6vPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br><br>
+    </div>
 
-        d = document.getElementById('pgbody').offsetHeight;
-        e = window.innerHeight;
-        f = (e-d)/2;
-        document.getElementById('pgbody').style.top=f-50+'px';
-      };
 
-      function menu(){
-        document.getElementById('menu1').classList.toggle("none");
-      }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/menu.js" charset="utf-8"></script>
   </body>
 </html>
