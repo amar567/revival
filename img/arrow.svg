@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="arrow.svg"
+   xml:space="preserve"
+   enable-background="new 0 0 512 512"
+   viewBox="0 0 512 512"
+   height="512px"
+   width="512px"
+   y="0px"
+   x="0px"
+   id="Layer_1"
+   version="1.1"><metadata
+   id="metadata11"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs9" /><sodipodi:namedview
+   inkscape:current-layer="Layer_1"
+   inkscape:window-maximized="1"
+   inkscape:window-y="-9"
+   inkscape:window-x="-9"
+   inkscape:cy="460.11779"
+   inkscape:cx="213.85599"
+   inkscape:zoom="0.32798399"
+   showgrid="false"
+   id="namedview7"
+   inkscape:window-height="1051"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0"
+   guidetolerance="10"
+   gridtolerance="10"
+   objecttolerance="10"
+   borderopacity="1"
+   bordercolor="#666666"
+   pagecolor="#ffffff" />
+<path
+   style="fill:#000000"
+   id="path2"
+   d="M293.751,455.868c-20.181,20.179-53.165,19.913-73.673-0.595l0,0c-20.508-20.508-20.773-53.493-0.594-73.672  l189.999-190c20.178-20.178,53.164-19.913,73.672,0.595l0,0c20.508,20.509,20.772,53.492,0.595,73.671L293.751,455.868z"
+   fill="#FFFFFF" />
+<path
+   style="fill:#000000"
+   id="path4"
+   d="M220.249,455.868c20.18,20.179,53.164,19.913,73.672-0.595l0,0c20.509-20.508,20.774-53.493,0.596-73.672  l-190-190c-20.178-20.178-53.164-19.913-73.671,0.595l0,0c-20.508,20.509-20.772,53.492-0.595,73.671L220.249,455.868z"
+   fill="#FFFFFF" />
+</svg>
