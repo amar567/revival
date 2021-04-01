@@ -476,22 +476,22 @@ function lazarus(){
 
   document.getElementById('extrabtn3').innerHTML=`
   <div class="st" style="text-align:center;">
-    <a href="lazarus2.html"><button class="regbtn" type="button">Round-2 details</button></a> <br><br>
+    <a href="lazarus3.html"><button class="regbtn" type="button">Round-3 details</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn4').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="lazarus2.html"><button class="regbtn" type="button">Round-2 details</button></a> <br><br>
+    <a href="lazarus3.html"><button class="regbtn" type="button">Round-3 details</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
-    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Round-1 Results</button></a> <br><br>
+    <a><button onclick="laz2_results()" class="regbtn flash" type="button" style="" >Round-2 Results</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a><button onclick="laz_results()" class="regbtn flash" type="button" style="" >Round-1 Results</button></a> <br><br>
+    <a><button onclick="laz2_results()" class="regbtn flash" type="button" style="" >Round-2 Results</button></a> <br><br>
   </div>`;
 
   about.innerHTML=`
@@ -596,6 +596,7 @@ function lazarus(){
   <ul style="list-style-type:disc;">
   <li> <font style="color:red;"> Registrations for Lazarus is closed now!</font> </li>
   <li> <a style="color:blue;" href="./lazarus1.html"> Round-1 Submission Guidelines </a> </li>
+  <li> <a style="color:blue;" href="#" onclick="laz_results()" > Round-1 results</a> </li>
   <li> <a style="color:blue;" href="./lazarus2.html"> Round-2 Submission Guidelines </a> </li>
 </ul>
   `;
@@ -621,27 +622,27 @@ function cicada(){
 
   img.src = `./img/events/cicada.png`;
 
-  // $('#regbtn2').attr('href','');
+  $('#regbtn2').attr('href','http://127.rf.gd/');
 
-  // $('#regbtn').attr('href','');
+  $('#regbtn').attr('href','http://127.rf.gd/');
 
-  document.getElementById('lz1').style.display=`none`;
-  document.getElementById('lz2').style.display=`none`;
+  // document.getElementById('lz1').style.display=`none`;
+  // document.getElementById('lz2').style.display=`none`;
 
   document.getElementById('extrabtn1').innerHTML=`
   <div class="st" style="text-align:center;">
   <!-- href="https://amardeephk.xyz/redirect/" -->
-    <a href="http://127.rf.gd/" ><button class="regbtn flash" type="button" style="" >Play Now</button></a> <br><br>
+    <a href="http://127.rf.gd/welcome.html" ><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
   </div>`;
 
   document.getElementById('extrabtn2').innerHTML=`
   <div class="lt" style="text-align:center;">
-    <a href="http://127.rf.gd/" ><button class="regbtn flash" type="button" style="" >Play Now</button></a> <br><br>
+    <a href="http://127.rf.gd/welcome.html" ><button class="regbtn flash" type="button" style="" >Play now</button></a> <br><br>
   </div>`;
 
   event_name.innerHTML=`CICADA`;
 
-  subname.innerHTML=`Treasure Hunt`;
+  subname.innerHTML=``;
 
   about.innerHTML=`Sick of solving your course and life problems? Enjoy the high of solving puzzles? <br><br>
 Take a break and join us in the battle of wits against time in our very own CICADA 3301, an online puzzle game organised by IISER Bhopal. This is no simple feat for a lone wolf so don't forget to bring your buddies with you, making a team of maximum 3-4 members to sail you through the quest. <br><br>
@@ -656,7 +657,9 @@ The top three teams to make it to the end will be rewarded.
   `;
 
   prizes.innerHTML=`
-IISER Bhopal’s Organising Team will update soon.
+  <li>First prize : 3K</li>
+  <li>Second prize: 2K</li>
+  <li>Third prize: 1K</li>
   `;
 
   judging_criteria.innerHTML=`
@@ -670,6 +673,9 @@ IISER Bhopal’s Organising Team will update soon.
   </li><li>
   Team size Maximum limit 4
   </li>
+  <li>individual participation also allowed (add this line)
+</li><li>
+Top 3 finishers will be rewarded.</li>
 </ul>
   `;
 
@@ -689,10 +695,8 @@ regarding winners will be addressed through this mail.</li>
 
   timeline.innerHTML =`
 <ul style="list-style-type:disc;">
-<li>28th March 2021 &minus; Registartion Opens</li><li>
-30th March 2021 &minus; Registration Closes</li><li>
-30th March 2021 &minus; Event starts</li><li>
-4th April 2021 &minus; Event ends</li>
+<li>Starts: 28march</li>
+<li>Ends: 4th april 23:59</li>
 </ul>
   `;
 
